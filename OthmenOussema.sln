@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OthmenOussema", "OthmenOussema\OthmenOussema.csproj", "{FC257104-515D-4442-A441-44AB8CCDB120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{36CA0C62-47F7-4821-9DBE-324BC9B44416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5B5A7F16-671A-4BF3-A95B-7CA5E84DFE6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC257104-515D-4442-A441-44AB8CCDB120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC257104-515D-4442-A441-44AB8CCDB120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC257104-515D-4442-A441-44AB8CCDB120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC257104-515D-4442-A441-44AB8CCDB120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CA0C62-47F7-4821-9DBE-324BC9B44416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CA0C62-47F7-4821-9DBE-324BC9B44416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CA0C62-47F7-4821-9DBE-324BC9B44416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CA0C62-47F7-4821-9DBE-324BC9B44416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5A7F16-671A-4BF3-A95B-7CA5E84DFE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5A7F16-671A-4BF3-A95B-7CA5E84DFE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5A7F16-671A-4BF3-A95B-7CA5E84DFE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5A7F16-671A-4BF3-A95B-7CA5E84DFE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
