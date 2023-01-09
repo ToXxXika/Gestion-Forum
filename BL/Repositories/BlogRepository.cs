@@ -1,4 +1,4 @@
-namespace PL.Repositories;
+namespace BL.Repositories;
 
 public class BlogRepository
 {

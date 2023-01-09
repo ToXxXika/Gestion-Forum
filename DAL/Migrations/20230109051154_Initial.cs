@@ -4,7 +4,7 @@
 
 namespace DAL.Migrations
 {
-    public partial class InitialStringLengthModification : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -60,6 +60,27 @@ namespace DAL.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "post",
+                columns: table => new
+                {
+                    post_ref = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    post_title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    post_content = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    post_subtitle = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    blog_ref = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_post", x => x.post_ref);
+                    table.ForeignKey(
+                        name: "FK_post_blog_blog_ref",
+                        column: x => x.blog_ref,
+                        principalTable: "blog",
+                        principalColumn: "blog_reference",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "permission",
                 columns: table => new
                 {
@@ -108,79 +129,6 @@ namespace DAL.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "comments",
-                columns: table => new
-                {
-                    comment_reference = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    comment_content = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: false),
-                    comment_user = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_comments", x => x.comment_reference);
-                    table.ForeignKey(
-                        name: "FK_comments_utilisateur_comment_user",
-                        column: x => x.comment_user,
-                        principalTable: "utilisateur",
-                        principalColumn: "utilisateur_id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "post",
-                columns: table => new
-                {
-                    post_ref = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    post_title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    post_content = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    post_subtitle = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    blog_ref = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    utilisateur_id = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_post", x => x.post_ref);
-                    table.ForeignKey(
-                        name: "FK_post_blog_blog_ref",
-                        column: x => x.blog_ref,
-                        principalTable: "blog",
-                        principalColumn: "blog_reference",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_post_utilisateur_utilisateur_id",
-                        column: x => x.utilisateur_id,
-                        principalTable: "utilisateur",
-                        principalColumn: "utilisateur_id");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "reaction_comment",
-                columns: table => new
-                {
-                    reaction_ref = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    comment_ref_pk = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    reaction_ref_pk = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    reaction_count = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_reaction_comment", x => x.reaction_ref);
-                    table.ForeignKey(
-                        name: "FK_reaction_comment_comments_comment_ref_pk",
-                        column: x => x.comment_ref_pk,
-                        principalTable: "comments",
-                        principalColumn: "comment_reference",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_reaction_comment_reaction_reaction_ref_pk",
-                        column: x => x.reaction_ref_pk,
-                        principalTable: "reaction",
-                        principalColumn: "reaction_ref",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "reaction_post",
                 columns: table => new
                 {
@@ -204,6 +152,25 @@ namespace DAL.Migrations
                         column: x => x.reaction_ref_pk,
                         principalTable: "reaction",
                         principalColumn: "reaction_ref",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "comments",
+                columns: table => new
+                {
+                    comment_reference = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    comment_content = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: false),
+                    comment_user = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_comments", x => x.comment_reference);
+                    table.ForeignKey(
+                        name: "FK_comments_utilisateur_comment_user",
+                        column: x => x.comment_user,
+                        principalTable: "utilisateur",
+                        principalColumn: "utilisateur_id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -233,6 +200,33 @@ namespace DAL.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "reaction_comment",
+                columns: table => new
+                {
+                    reaction_ref = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    comment_ref_pk = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    reaction_ref_pk = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    reaction_count = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_reaction_comment", x => x.reaction_ref);
+                    table.ForeignKey(
+                        name: "FK_reaction_comment_comments_comment_ref_pk",
+                        column: x => x.comment_ref_pk,
+                        principalTable: "comments",
+                        principalColumn: "comment_reference",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_reaction_comment_reaction_reaction_ref_pk",
+                        column: x => x.reaction_ref_pk,
+                        principalTable: "reaction",
+                        principalColumn: "reaction_ref",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_comments_comment_user",
                 table: "comments",
@@ -247,11 +241,6 @@ namespace DAL.Migrations
                 name: "IX_post_blog_ref",
                 table: "post",
                 column: "blog_ref");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_post_utilisateur_id",
-                table: "post",
-                column: "utilisateur_id");
 
             migrationBuilder.CreateIndex(
                 name: "IX_reaction_comment_comment_ref_pk",
@@ -316,10 +305,10 @@ namespace DAL.Migrations
                 name: "post");
 
             migrationBuilder.DropTable(
-                name: "blog");
+                name: "utilisateur");
 
             migrationBuilder.DropTable(
-                name: "utilisateur");
+                name: "blog");
 
             migrationBuilder.DropTable(
                 name: "role");

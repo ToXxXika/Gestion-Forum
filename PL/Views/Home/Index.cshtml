@@ -4,6 +4,7 @@
     ViewData["Title"] = "Home Page";
     var bloglist = (ArrayViewModel)ViewData["BlogList"];
     var postList= (ArrayViewModel)ViewData["PostList"];
+    var ReactionList = (ArrayViewModel)ViewData["ReactionPost"];
 }
 
 
@@ -15,6 +16,8 @@
     <link rel="stylesheet" href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-svg.css">
     <link rel="stylesheet" href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/soft-ui-dashboard.min.css?v=1.0.2">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
 </head>
 
@@ -328,48 +331,56 @@
         </div>
     </div>
 </div>
-<div>
-<div class="d-flex p-3 border-bottom">
-    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (29).webp" class="rounded-circle"
-         height="50" alt="Avatar" loading="lazy"/>
-    <div class="d-flex w-100 ps-3">
-        @foreach (var item2 in postList.PostArray)
-        {
-            <div>
-                <a href="">
-                    <h6 class="text-body">
-                        USER NAME HERE 
-                        <span class="small text-muted font-weight-normal">USER ROLE HERE</span>
-                        <span class="small text-muted font-weight-normal">.</span>
-                        <span class="small text-muted font-weight-normal">TIME FROM DATABASE</span>
-                        <span>
-                            <i class="fas fa-angle-down float-end"></i>
-                        </span>
-                    </h6>
-                </a>
-                <p style="line-height: 1.2;">
-                    @item2.post_content
-                </p>
-                <ul class="list-unstyled d-flex justify-content-between mb-0 pe-xl-5">
-                    <li>
-                        <i class="far fa-comment"></i>
-                    </li>
-                    <li>
-                        <i class="fas fa-retweet"></i><span class="small ps-2">7</span>
-                    </li>
-                    <li>
-                        <i class="far fa-heart"></i><span class="small ps-2">35</span>
-                    </li>
-                    <li>
-                        <i class="far fa-share-square"></i>
-                    </li>
-                </ul>
-            </div>
-        }
-    </div>
-</div>
+    <div>
+          @foreach (var item2 in postList.userPost)
+                    {
+                 @foreach (var item3 in  ReactionList.ReactionPost)
+                 {
+                     @if (item2.post.post_ref == item3.post_ref_pk)
+                     {
+                         <div class="d-flex p-3 border-bottom">
+                             <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (29).webp" class="rounded-circle"
+                                  height="50" alt="Avatar" loading="lazy"/>
+                             <div class="d-flex w-100 ps-3">
 
-</div>
+                                 <div>
+                                     <a href="">
+                                         <h6 class="text-body">
+                                             @item2.utilisateur.username
+                                             <span class="  small text-muted font-weight-normal w3-badge w3-green ">@item2.utilisateur.role.role_name</span>
+                                             <span class="small text-muted font-weight-normal">.</span>
+                                             <span class="small text-muted font-weight-normal">TIME FROM DATABASE</span>
+                                             <span>
+                                                 <i class="fas fa-angle-down float-end"></i>
+                                             </span>
+                                         </h6>
+                                     </a>
+                                     <p style="line-height: 1.2;">
+                                         @item2.post.post_content
+                                     </p>
+                                     <ul class="list-unstyled d-flex justify-content-between mb-0 pe-xl-5">
+                                         <li>
+                                             <i class="far fa-comment"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fas fa-retweet"></i><span class="small ps-2">7</span>
+                                         </li>
+                                         <li>
+                                             <i class="far fa-heart"></i><span class="small ps-2">@item3.reaction_count</span>
+                                         </li>
+                                         <li>
+                                             <i class="far fa-share-square"></i>
+                                         </li>
+                                     </ul>
+                                 </div>
+
+                             </div>
+                         </div>
+                     }
+                 }
+                    }
+
+    </div>
 </div>
 </div>
 

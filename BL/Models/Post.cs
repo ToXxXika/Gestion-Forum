@@ -16,9 +16,9 @@ public class Post
     public String post_subtitle { get; set; }
     [Required,MaxLength(255),ForeignKey("blog")]
     public String blog_ref { get; set; }
-    [Required,ForeignKey("utilisateur"),Column("utilisateur_id")]
-    public  int utilisateur_id { get; set; }
+   
   
     
     public virtual Blog blog { get; set; }
+    public virtual ICollection<PostComment> postComments { get; set; }
 }

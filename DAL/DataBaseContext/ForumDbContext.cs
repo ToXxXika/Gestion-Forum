@@ -22,5 +22,6 @@ public class ForumDbContext:DbContext
     public DbSet<Reaction_Post> reaction_Post{get;set;}
     public DbSet<ReactionComment> reaction_Comment{get;set;}
     public DbSet<UtilisateurPost> utilisateur_Post{get;set;}
+    public DbSet<PostComment> PostComments{get;set;}
     public DbSet<Blog> blog{get;set;}
 }

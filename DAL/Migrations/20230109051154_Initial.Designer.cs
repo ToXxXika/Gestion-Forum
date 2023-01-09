@@ -3,6 +3,7 @@ using DAL.DataBaseContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(ForumDbContext))]
-    partial class ForumDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230109051154_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -151,32 +153,6 @@ namespace DAL.Migrations
                     b.HasIndex("blog_ref");
 
                     b.ToTable("post");
-                });
-
-            modelBuilder.Entity("BL.Models.PostComment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("post_ref_fk")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(255)")
-                        .HasColumnName("id_post");
-
-                    b.Property<int>("utilisateur_fk")
-                        .HasColumnType("int")
-                        .HasColumnName("id_utilisateur");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("post_ref_fk");
-
-                    b.HasIndex("utilisateur_fk");
-
-                    b.ToTable("post_commments");
                 });
 
             modelBuilder.Entity("BL.Models.Reaction", b =>
@@ -411,25 +387,6 @@ namespace DAL.Migrations
                     b.Navigation("blog");
                 });
 
-            modelBuilder.Entity("BL.Models.PostComment", b =>
-                {
-                    b.HasOne("BL.Models.Post", "post")
-                        .WithMany("postComments")
-                        .HasForeignKey("post_ref_fk")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BL.Models.Utilisateur", "utilisateur")
-                        .WithMany("PostComments")
-                        .HasForeignKey("utilisateur_fk")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("post");
-
-                    b.Navigation("utilisateur");
-                });
-
             modelBuilder.Entity("BL.Models.Reaction_Post", b =>
                 {
                     b.HasOne("BL.Models.Post", "post")
@@ -503,16 +460,9 @@ namespace DAL.Migrations
                     b.Navigation("Posts");
                 });
 
-            modelBuilder.Entity("BL.Models.Post", b =>
-                {
-                    b.Navigation("postComments");
-                });
-
             modelBuilder.Entity("BL.Models.Utilisateur", b =>
                 {
                     b.Navigation("Comments");
-
-                    b.Navigation("PostComments");
                 });
 #pragma warning restore 612, 618
         }

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PL.Models;
-using PL.Repositories;
+using BL.Repositories;
 
 namespace PL.Controllers;
 
@@ -21,34 +21,52 @@ public class HomeController : Controller
         _logger = logger;
         _context = context;
     }
-  
 
+    public List<UtilisateurPost> FindUsersPost()
+    {
+        var userPost = _context.utilisateur_Post
+            .Include(x=>x.utilisateur).ThenInclude(u=>u.role).Include(x=>x.post).ToList();
+        return userPost;
+    }
+
+    public List<Reaction_Post> FindReaction_Post()
+    {
+        var ReactionPost = _context.reaction_Post.Include(x => x.post)
+            .Include(x => x.reaction).ToList();
+        return ReactionPost;
+    }
+
+    
     [HttpGet]
     public List<Blog> GetBlogs()
     {
         return  _context.blog.ToList();
     }
-    public List<Post> GetPosts()
-    {
-        return _context.post.ToList();
-    }
+   
     public IActionResult Index()
     {
         var blogsList = GetBlogs();
-        var postlist = GetPosts();
+        var userPost = FindUsersPost();
+     
+        Console.WriteLine(userPost.Count);
         var viewModel2 = new ArrayViewModel()
         {
-            PostArray  = postlist
+            userPost  = userPost
         };
         var viewModel = new ArrayViewModel
         {
             BlogArray = blogsList
+        };
+        var viewModel3 = new ArrayViewModel
+        {
+            ReactionPost = FindReaction_Post()
         };
         //receive the data from LoginController
         var localNom = TempData["LocalNom"];
         var localPrenom = TempData["LocalPrenom"];
         ViewData["BlogList"] = viewModel;
         ViewData["PostList"] = viewModel2;
+        ViewData["ReactionPost"] = viewModel3;
         ViewData["Nom"] = localNom;
         ViewData["Prenom"] = localPrenom;
         return View();
@@ -60,10 +78,10 @@ public class HomeController : Controller
     }
     
     [HttpPost]
-    public async Task<IActionResult> AddPost([Bind("post_title,post_content,post_subtitle,blog_ref,utilisateur_id")] Post post, int userId)
+    public async Task<IActionResult> AddPost([Bind("post_title,post_content,post_subtitle,blog_ref")] Post post, int userId)
     {
         post.post_ref = _postRepository.GenrateRandomReference();
-        post.utilisateur_id = userId;
+      
         await _context.post.AddAsync(post);
         await _context.SaveChangesAsync();
         return RedirectToAction("Index");
@@ -79,5 +97,6 @@ public class HomeController : Controller
 public class ArrayViewModel
 {
     public List<Blog> BlogArray { get; set; }
-    public List<Post> PostArray { get; set; }
+    public List<UtilisateurPost> userPost { get; set; }
+    public List<Reaction_Post> ReactionPost { get; set; }
 }
