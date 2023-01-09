@@ -46,6 +46,7 @@ namespace PL.Controllers
                TempData["LocalPhone"]= user2.phone;
                TempData["LocalUserName"] = user2.username;
                TempData["adresse"] = user2.adresse;
+               TempData["LocalId"] = user2.utilisateur_id;
                return RedirectToAction("Index", "Home");
             }
             else

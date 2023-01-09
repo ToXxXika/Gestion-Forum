@@ -5,6 +5,7 @@
     var bloglist = (ArrayViewModel)ViewData["BlogList"];
     var postList= (ArrayViewModel)ViewData["PostList"];
     var ReactionList = (ArrayViewModel)ViewData["ReactionPost"];
+    
 }
 
 
@@ -285,18 +286,28 @@
     </h4>
 </div>
 <div>
-<div class="card shadow-0">
+    <div class="card shadow-0">
+    <form asp-controller="Home" asp-action="AddPost">
+        <div class="card-header">
+            
+            <input type="text" class="form-control form-status border-0 py-1 px-0" asp-for="post_title" placeholder="Post Title"/>
+            <br/>
+            <input type="text" class="form-control form-status border-0 py-1 px-0" asp-for="post_subtitle" placeholder="Post Subtitle"/>
+            <br/>
+            <select asp-for="blog_ref" class="form-control form-status border-0 py-1 px-0" asp-items="ViewBag.blog"></select>
+        </div>
     <div class="card-body border-bottom pb-2">
-              <div class="d-flex">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
-                  height="50" alt="Avatar" loading="lazy" />
-                <div class="d-flex align-items-center w-100 ps-3">
-                  <div class="w-100">
+        <div class="d-flex">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
+                 height="50" alt="Avatar" loading="lazy"/>
+                
+            <div class="d-flex align-items-center w-100 ps-3">
+                <div class="w-100">
                     <input type="text" asp-for="post_content" class="form-control form-status border-0 py-1 px-0"
-                      placeholder="What's happening" />
-                  </div>
+                           placeholder="Post Content"/>
                 </div>
-              </div>
+            </div>
+        </div>
         <div class="d-flex justify-content-between">
             <ul class="list-unstyled d-flex flex-row ps-3 pt-3" style="margin-left: 50px;">
                 <li>
@@ -325,12 +336,13 @@
                     </a>
                 </li>
             </ul>
-            <div class="d-flex align-items-center">
-                <button type="submit"  class="btn btn-primary btn-rounded">Post</button>
+            <div class="d-flex align-items-center">"
+                <button type="submit" asp-   class="btn btn-primary btn-rounded">Post</button>
             </div>
         </div>
     </div>
-</div>
+    </form>
+    </div>
     <div>
           @foreach (var item2 in postList.userPost)
                     {
@@ -373,7 +385,7 @@
                                          </li>
                                      </ul>
                                  </div>
-
+                       
                              </div>
                          </div>
                      }

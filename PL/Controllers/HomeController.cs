@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PL.Models;
 using BL.Repositories;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace PL.Controllers;
 
@@ -69,6 +70,7 @@ public class HomeController : Controller
         ViewData["ReactionPost"] = viewModel3;
         ViewData["Nom"] = localNom;
         ViewData["Prenom"] = localPrenom;
+        ViewData["blog"] = new SelectList(_context.blog, "blog_reference", "blog_title");
         return View();
     }
 
@@ -76,14 +78,22 @@ public class HomeController : Controller
     {
         return View();
     }
-    
-    [HttpPost]
-    public async Task<IActionResult> AddPost([Bind("post_title,post_content,post_subtitle,blog_ref")] Post post, int userId)
+    public String GenrateRandomReference()
     {
-        post.post_ref = _postRepository.GenrateRandomReference();
-      
+        //TODO: Generate Random Reference if u want to change it and test if it's not found
+        return "REF" + new Random().Next(1, 999999).ToString();
+        
+    }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> AddPost([Bind("post_title,post_content,post_subtitle,blog_ref")] Post post)
+    {
+        Console.WriteLine("Hello i'm here ");
+        post.post_ref = GenrateRandomReference();
         await _context.post.AddAsync(post);
         await _context.SaveChangesAsync();
+        UtilisateurPost UP = new UtilisateurPost();
+        
         return RedirectToAction("Index");
     }
 
