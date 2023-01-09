@@ -43,12 +43,14 @@ namespace DAL.Migrations
             modelBuilder.Entity("BL.Models.Comments", b =>
                 {
                     b.Property<string>("comment_reference")
-                        .HasColumnType("nvarchar(450)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("comment_reference");
 
                     b.Property<string>("comment_content")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)")
                         .HasColumnName("comment_content");
 
                     b.Property<int>("comment_user")
@@ -99,15 +101,18 @@ namespace DAL.Migrations
 
                     b.Property<string>("permission_description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
                     b.Property<string>("permission_name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("role_ref")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.HasKey("idpermission");
 
@@ -157,17 +162,20 @@ namespace DAL.Migrations
             modelBuilder.Entity("BL.Models.Reaction", b =>
                 {
                     b.Property<string>("reaction_ref")
-                        .HasColumnType("nvarchar(450)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("reaction_ref");
 
                     b.Property<string>("reaction_description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("reaction_description");
 
                     b.Property<string>("reaction_type")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("reaction_type");
 
                     b.HasKey("reaction_ref");
@@ -186,6 +194,7 @@ namespace DAL.Migrations
 
                     b.Property<string>("post_ref_pk")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)")
                         .HasColumnName("post_ref_pk");
 
@@ -195,7 +204,8 @@ namespace DAL.Migrations
 
                     b.Property<string>("reaction_ref_pk")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("reaction_ref_pk");
 
                     b.HasKey("idpostref");
@@ -218,7 +228,8 @@ namespace DAL.Migrations
 
                     b.Property<string>("comment_ref_pk")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("comment_ref_pk");
 
                     b.Property<int>("reaction_count")
@@ -227,7 +238,8 @@ namespace DAL.Migrations
 
                     b.Property<string>("reaction_ref_pk")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("reaction_ref_pk");
 
                     b.HasKey("reaction_ref");
@@ -242,8 +254,8 @@ namespace DAL.Migrations
             modelBuilder.Entity("BL.Models.Role", b =>
                 {
                     b.Property<string>("role_ref")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("nvarchar(450)")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
                         .HasColumnName("role_ref");
 
                     b.Property<string>("role_name")
@@ -300,14 +312,11 @@ namespace DAL.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("pwd");
 
-                    b.Property<string>("role")
+                    b.Property<string>("roles")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("role");
-
-                    b.Property<string>("rolesrole_ref")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
+                        .HasColumnName("roles");
 
                     b.Property<string>("username")
                         .IsRequired()
@@ -317,7 +326,7 @@ namespace DAL.Migrations
 
                     b.HasKey("utilisateur_id");
 
-                    b.HasIndex("rolesrole_ref");
+                    b.HasIndex("roles");
 
                     b.ToTable("utilisateur");
                 });
@@ -426,13 +435,13 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("BL.Models.Utilisateur", b =>
                 {
-                    b.HasOne("BL.Models.Role", "roles")
+                    b.HasOne("BL.Models.Role", "role")
                         .WithMany()
-                        .HasForeignKey("rolesrole_ref")
+                        .HasForeignKey("roles")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("roles");
+                    b.Navigation("role");
                 });
 
             modelBuilder.Entity("BL.Models.UtilisateurPost", b =>

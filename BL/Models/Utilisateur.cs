@@ -28,9 +28,9 @@ public class Utilisateur
     [Column("pwd")]
     public string pwd { get; set; }
     [Required]
-    [MinLength(255),ForeignKey("role")]
-    [Column("role")]
-    public string role { get; set; }
+    [MaxLength(255),ForeignKey("role")]
+    [Column("roles")]
+    public string roles { get; set; }
     [Required]
     [StringLength(50)]
     [Column("adresse")]
@@ -44,7 +44,8 @@ public class Utilisateur
     [Column("phone")]
     public string phone { get; set;  }
     
-    public virtual Role roles { get; set; }
+   
+    public virtual Role role  { get; set; }
     public virtual ICollection<Comments> Comments { get; set; }
     public virtual ICollection<Post> Posts { get; set; }
 }

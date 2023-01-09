@@ -8,9 +8,9 @@ public class Reaction_Post
 {
     [Required,Column("idpostref"),Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int idpostref { get; set; }
-    [Required,Column("reaction_ref_pk"),ForeignKey("reaction"),MinLength(255)]
+    [Required,Column("reaction_ref_pk"),ForeignKey("reaction"),MaxLength(255)]
     public String reaction_ref_pk { get; set; }
-    [Required,Column("post_ref_pk"),ForeignKey("post"),MinLength(255)]
+    [Required,Column("post_ref_pk"),ForeignKey("post"),MaxLength(255)]
     public String post_ref_pk { get; set; }
     [Required,Column("reaction_count")]
     public int reaction_count { get; set; }

@@ -8,9 +8,9 @@ public class ReactionComment
 {
     [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity),Column("reaction_ref")]
     public int reaction_ref { get; set; }
-    [Required,Column("comment_ref_pk"),MinLength(255),ForeignKey("comment")]
+    [Required,Column("comment_ref_pk"),MaxLength(255),ForeignKey("comment")]
     public String comment_ref_pk { get; set; }
-    [Required,Column("reaction_ref_pk"),MinLength(255),ForeignKey("reaction")]
+    [Required,Column("reaction_ref_pk"),MaxLength(255),ForeignKey("reaction")]
     public String reaction_ref_pk { get; set; }
     [Required,Column("reaction_count")] 
     public int reaction_count { get; set; }
