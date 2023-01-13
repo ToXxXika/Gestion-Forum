@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 using BL.Models;
 using DAL.DataBaseContext;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PL.Models;
@@ -68,8 +67,8 @@ public class HomeController : Controller
         ViewData["BlogList"] = viewModel;
         ViewData["PostList"] = viewModel2;
         ViewData["ReactionPost"] = viewModel3;
-        ViewData["Nom"] = localNom;
-        ViewData["Prenom"] = localPrenom;
+        ViewData["Nom"] = "localNom";
+        ViewData["Prenom"] = "localPrenom";
         ViewData["blog"] = new SelectList(_context.blog, "blog_reference", "blog_title");
         return View();
     }

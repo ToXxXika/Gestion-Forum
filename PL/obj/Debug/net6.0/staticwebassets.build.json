@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "mdaD4xAN/sJLPRVcsx8N97/kbUP9LqcQuaTkjnQ0R5M=",
+  "Hash": "H5KzMA3S/663tRfaxichLQvckn2zjK+0tTq52KtUtHY=",
   "Source": "PL",
   "BasePath": "_content/PL",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
       "Version": 2,
       "Source": "BL",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\DAL\\DAL.csproj",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
       "Version": 2,
       "Source": "DAL",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -33,17 +33,17 @@
     {
       "Name": "PL\\wwwroot",
       "Source": "PL",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css",
       "SourceId": "PL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PL",
       "RelativePath": "PL.styles.css",
       "AssetKind": "All",
@@ -54,13 +54,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css"
+      "OriginalItemSpec": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css",
       "SourceId": "PL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PL",
       "RelativePath": "PL.bundle.scp.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\site.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -91,10 +91,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\favicon.ico",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -108,10 +108,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\site.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -125,10 +125,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -142,10 +142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -159,10 +159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -176,10 +176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -193,10 +193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -210,10 +210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -244,10 +244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -261,10 +261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -278,10 +278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -295,10 +295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -312,10 +312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -329,10 +329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -346,10 +346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -363,10 +363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -380,10 +380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -414,10 +414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -431,10 +431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -448,10 +448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -465,10 +465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -482,10 +482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -499,10 +499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -516,10 +516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -533,10 +533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -550,10 +550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -567,10 +567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -601,10 +601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -618,10 +618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -635,10 +635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -652,10 +652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -669,10 +669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -686,10 +686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -703,10 +703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -737,10 +737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -754,10 +754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -771,10 +771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -788,10 +788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -805,10 +805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -822,10 +822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -839,10 +839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -856,10 +856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -873,10 +873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -890,10 +890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -907,10 +907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -924,10 +924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -958,10 +958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -975,10 +975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -992,10 +992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1009,10 +1009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1026,10 +1026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1060,10 +1060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1077,10 +1077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

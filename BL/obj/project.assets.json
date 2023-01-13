@@ -2010,26 +2010,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mabro\\.nuget\\packages\\": {}
+    "C:\\Users\\MSI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj",
-      "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\obj\\",
+      "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
+      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2092,7 +2090,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

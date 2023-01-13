@@ -36,6 +36,11 @@
       <_ContentIncludedByDefault Remove="Views\User\Details.cshtml" />
       <_ContentIncludedByDefault Remove="Views\User\Edit.cshtml" />
       <_ContentIncludedByDefault Remove="Views\User\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Test\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Test\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Test\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Test\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Test\Index.cshtml" />
     </ItemGroup>
 
 </Project>
