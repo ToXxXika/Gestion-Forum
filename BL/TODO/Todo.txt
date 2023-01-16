@@ -8,4 +8,10 @@
 //TODO : WHAT IM THINKING ABOUT RIGHT NOW IS TO MAKE A LIVE MESSAGE BETWEEN USERS AND ADMIN
 //TODO : ALSO I LL MAKE A DASHBOARD FOR ADMIN TO SEE THE USERS AND THEIR POSTS AND ALSO TO DELETE THEM
 // TODO : WE'VE USED JSON DESERIALIZATION TO GET THE DATA FROM THE DATABASE AND THEN WE'VE USED IT TO SHOW IT ON THE SCREEN
+
+===============================================================================================================================
+NEED TO DO AND MODIFY TOP RIGHT AND LOGO OF HOME PAGE
+===============================================================================================================================
+//TODO : ADD AN ADVERTISMENT ON THE HOME PAGE
+//TODO: RE-DESIGN SHARE YOUR MOOD IN HOME PAGE
  

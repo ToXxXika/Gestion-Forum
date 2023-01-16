@@ -51,7 +51,6 @@ public class HomeController : Controller
         var blogsList = GetBlogs();
         var userPost = FindUsersPost();
 
-        Console.WriteLine(userPost.Count);
         var viewModel2 = new ArrayViewModel()
         {
             userPost = userPost
