@@ -74,6 +74,7 @@ C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\Microsoft.IdentityM
 C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\nunit.framework.dll
 C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\MSI\RiderProjects\Gestion-Forum\BL\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

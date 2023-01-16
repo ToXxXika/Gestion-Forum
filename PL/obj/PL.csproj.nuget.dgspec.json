@@ -61,6 +61,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
             }
           },
           "imports": [
@@ -151,6 +155,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
             }
           },
           "imports": [
@@ -245,9 +253,21 @@
               "target": "Package",
               "version": "[6.0.12, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.4.1, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.11, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             },
             "ToastNotifications": {
               "target": "Package",

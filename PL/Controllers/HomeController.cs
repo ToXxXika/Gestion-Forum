@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using PL.Models;
 using BL.Repositories;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
 
 namespace PL.Controllers;
 
@@ -13,10 +14,11 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly ForumDbContext _context;
-    private readonly  PostRepository _postRepository;
-    private readonly  BlogRepository _blogRepository;
+    private readonly PostRepository _postRepository;
+    private readonly BlogRepository _blogRepository;
+    private static int idUser;
 
-    public HomeController(ILogger<HomeController> logger,ForumDbContext context)
+    public HomeController(ILogger<HomeController> logger, ForumDbContext context)
     {
         _logger = logger;
         _context = context;
@@ -25,7 +27,7 @@ public class HomeController : Controller
     public List<UtilisateurPost> FindUsersPost()
     {
         var userPost = _context.utilisateur_Post
-            .Include(x=>x.utilisateur).ThenInclude(u=>u.role).Include(x=>x.post).ToList();
+            .Include(x => x.utilisateur).ThenInclude(u => u.role).Include(x => x.post).ToList();
         return userPost;
     }
 
@@ -36,22 +38,23 @@ public class HomeController : Controller
         return ReactionPost;
     }
 
-    
+
     [HttpGet]
     public List<Blog> GetBlogs()
     {
-        return  _context.blog.ToList();
+        return _context.blog.ToList();
     }
-   
+
+
     public IActionResult Index()
     {
         var blogsList = GetBlogs();
         var userPost = FindUsersPost();
-     
+
         Console.WriteLine(userPost.Count);
         var viewModel2 = new ArrayViewModel()
         {
-            userPost  = userPost
+            userPost = userPost
         };
         var viewModel = new ArrayViewModel
         {
@@ -70,6 +73,9 @@ public class HomeController : Controller
         ViewData["Nom"] = "localNom";
         ViewData["Prenom"] = "localPrenom";
         ViewData["blog"] = new SelectList(_context.blog, "blog_reference", "blog_title");
+        Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
+            System.IO.File.ReadAllText(@"C:\Users\MSI\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
+        ViewBag.user = u;
         return View();
     }
 
@@ -77,22 +83,32 @@ public class HomeController : Controller
     {
         return View();
     }
+
     public String GenrateRandomReference()
     {
         //TODO: Generate Random Reference if u want to change it and test if it's not found
         return "REF" + new Random().Next(1, 999999).ToString();
-        
     }
+
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> AddPost([Bind("post_title,post_content,post_subtitle,blog_ref")] Post post)
     {
         Console.WriteLine("Hello i'm here ");
         post.post_ref = GenrateRandomReference();
+        Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
+            System.IO.File.ReadAllText(@"C:\Users\MSI\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
+       
+        UtilisateurPost UP = new UtilisateurPost()
+        {
+            utilisateur_id_fk = u.utilisateur_id,
+            post_ref_fk = post.post_ref
+        };
         await _context.post.AddAsync(post);
         await _context.SaveChangesAsync();
-        UtilisateurPost UP = new UtilisateurPost();
-        
+        await _context.utilisateur_Post.AddAsync(UP);
+        await _context.SaveChangesAsync();
+            
         return RedirectToAction("Index");
     }
 

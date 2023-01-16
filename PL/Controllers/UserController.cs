@@ -99,7 +99,7 @@ namespace PL.Controllers
             {
                 return NotFound();
             }
-            ViewData["roles"] = new SelectList(_context.role, "role_ref", "role_ref", utilisateur.roles);
+            ViewData["roles"] = new SelectList(_context.role, "role_ref", "role_name", utilisateur.roles);
             return View(utilisateur);
         }
 
@@ -181,5 +181,8 @@ namespace PL.Controllers
         {
           return (_context.utilisateur?.Any(e => e.utilisateur_id == id)).GetValueOrDefault();
         }
+        
+      
     }
+    
 }

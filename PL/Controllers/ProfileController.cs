@@ -4,9 +4,12 @@ namespace PL.Controllers;
 
 public class ProfileController : Controller
 {
+    
     // GET
-    public IActionResult Index()
+    public  IActionResult Index()
     {
-        return View("Profile");
+       return   View("Profile");
     }
+
+   
 }

@@ -7,18 +7,23 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BL.Models;
 using DAL.DataBaseContext;
+
+using Newtonsoft.Json;
 using SQLitePCL;
 
 namespace PL.Controllers
 {
     public class LoginController : Controller
     {
-        private readonly ForumDbContext _context;
+        public readonly ForumDbContext _context;
 
         public LoginController(ForumDbContext context)
         {
             _context = context;
         }
+
+ 
+        
 
         // GET: Login
         public async Task<IActionResult> Index()
@@ -32,6 +37,7 @@ namespace PL.Controllers
         [HttpPost]
         public async Task<IActionResult> VerifyLogs([Bind("mail","pwd")] Login _Login)
         {
+            //check if context is initialized 
             //display Login
             Console.WriteLine(_Login.mail+" "+_Login.pwd);
             //verify if the user exists
@@ -47,7 +53,9 @@ namespace PL.Controllers
                TempData["LocalUserName"] = user2.username;
                TempData["adresse"] = user2.adresse;
                TempData["LocalId"] = user2.utilisateur_id;
-               
+               await System.IO.File.WriteAllTextAsync(@"C:\Users\MSI\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json",JsonConvert.SerializeObject(user2));
+
+
                return RedirectToAction("Index", "Home");
             }
             else
@@ -64,5 +72,6 @@ namespace PL.Controllers
         {
           return (_context.login?.Any(e => e.idlog == id)).GetValueOrDefault();
         }
+        
     }
 }

@@ -44,6 +44,14 @@ public class Utilisateur
     [Column("phone")]
     public string phone { get; set;  }
     
+    
+    [Column("about")]
+    public string about { get; set; }
+    
+    [Column("Country")]
+    public string Country { get; set; }
+    
+    
    
     public virtual Role role  { get; set; }
     public virtual ICollection<Comments> Comments { get; set; }

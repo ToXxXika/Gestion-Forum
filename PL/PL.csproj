@@ -24,7 +24,10 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+      <PackageReference Include="NUnit" Version="3.13.3" />
       <PackageReference Include="ToastNotifications" Version="2.5.1" />
       <PackageReference Include="ToastNotifications.Messages" Version="2.5.1" />
       <PackageReference Include="toastr" Version="2.1.1" />
@@ -41,6 +44,14 @@
       <_ContentIncludedByDefault Remove="Views\Test\Details.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Test\Edit.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Test\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Index\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Index\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Index\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Index\Edit.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="JsonDeserializer" />
     </ItemGroup>
 
 </Project>

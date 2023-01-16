@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UeAdiB+k26M6khvwJMmJ8DOlmeSe5YVsrctjj8XdpO1uDsb71S0Q71VV+D56Y+UXh8xPXE4pc5dJERLC03VJTQ==",
+  "dgSpecHash": "Mu38lxwlDsNT64/XliQJ+KLx89qDpUnWzdhl78n2Aab0fpC9+HQPi9X7tGIK0PhBZR7Ho+ygjFuCw3oZ7C49Bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,8 @@
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

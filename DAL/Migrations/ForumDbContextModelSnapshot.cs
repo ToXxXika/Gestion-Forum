@@ -296,6 +296,16 @@ namespace DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("utilisateur_id"), 1L, 1);
 
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Country");
+
+                    b.Property<string>("about")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("about");
+
                     b.Property<string>("adresse")
                         .IsRequired()
                         .HasMaxLength(50)
