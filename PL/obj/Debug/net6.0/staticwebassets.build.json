@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "RlzGvHDqsd7ySRXQaWtzdXfjT0j9gwLPfEAQ16nisE8=",
+  "Hash": "1yydB47nKaIctWn+dIzHEsM2hRVdrYvQAouexx2YS/A=",
   "Source": "PL",
   "BasePath": "_content/PL",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
       "Version": 2,
       "Source": "BL",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
       "Version": 2,
       "Source": "DAL",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -33,17 +33,17 @@
     {
       "Name": "PL\\wwwroot",
       "Source": "PL",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css",
       "SourceId": "PL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PL",
       "RelativePath": "PL.styles.css",
       "AssetKind": "All",
@@ -54,13 +54,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css"
+      "OriginalItemSpec": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PL.styles.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css",
       "SourceId": "PL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PL",
       "RelativePath": "PL.bundle.scp.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PL.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\lightgallery.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\lightgallery.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/plugins/lightgallery.min.css",
       "AssetKind": "All",
@@ -91,10 +91,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\lightgallery.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\nice-select.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\nice-select.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/plugins/nice-select.css",
       "AssetKind": "All",
@@ -108,10 +108,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\nice-select.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\perfect-scrollbar.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\perfect-scrollbar.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/plugins/perfect-scrollbar.css",
       "AssetKind": "All",
@@ -125,10 +125,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\perfect-scrollbar.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\plyr.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\plyr.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/plugins/plyr.css",
       "AssetKind": "All",
@@ -142,10 +142,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\plyr.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\slick.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\plugins\\slick.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/plugins/slick.min.css",
       "AssetKind": "All",
@@ -159,10 +159,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\slick.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\site.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -176,10 +176,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\style.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -193,10 +193,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\vendor\\bicon.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\vendor\\bicon.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/vendor/bicon.min.css",
       "AssetKind": "All",
@@ -210,10 +210,10 @@
       "OriginalItemSpec": "wwwroot\\css\\vendor\\bicon.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\vendor\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\vendor\\bootstrap.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/vendor/bootstrap.min.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\vendor\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\vendor\\flaticon.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\css\\vendor\\flaticon.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "css/vendor/flaticon.css",
       "AssetKind": "All",
@@ -244,10 +244,10 @@
       "OriginalItemSpec": "wwwroot\\css\\vendor\\flaticon.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\favicon.ico",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -261,10 +261,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\_flaticon.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\_flaticon.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/_flaticon.scss",
       "AssetKind": "All",
@@ -278,10 +278,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\_flaticon.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.eot",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.eot",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/bicon.eot",
       "AssetKind": "All",
@@ -295,10 +295,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\bicon.eot"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.svg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.svg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/bicon.svg",
       "AssetKind": "All",
@@ -312,10 +312,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\bicon.svg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.ttf",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.ttf",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/bicon.ttf",
       "AssetKind": "All",
@@ -329,10 +329,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\bicon.ttf"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.woff",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\bicon.woff",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/bicon.woff",
       "AssetKind": "All",
@@ -346,10 +346,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\bicon.woff"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.eot",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.eot",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/Flaticon.eot",
       "AssetKind": "All",
@@ -363,10 +363,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.eot"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.svg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.svg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/Flaticon.svg",
       "AssetKind": "All",
@@ -380,10 +380,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.svg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.ttf",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.ttf",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/Flaticon.ttf",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.ttf"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.woff",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.woff",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/Flaticon.woff",
       "AssetKind": "All",
@@ -414,10 +414,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.woff"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.woff2",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\Flaticon.woff2",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/Flaticon.woff2",
       "AssetKind": "All",
@@ -431,10 +431,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.woff2"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.eot",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.eot",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/lg.eot",
       "AssetKind": "All",
@@ -448,10 +448,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\lg.eot"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.svg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.svg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/lg.svg",
       "AssetKind": "All",
@@ -465,10 +465,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\lg.svg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.ttf",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.ttf",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/lg.ttf",
       "AssetKind": "All",
@@ -482,10 +482,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\lg.ttf"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.woff",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\fonts\\lg.woff",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "fonts/lg.woff",
       "AssetKind": "All",
@@ -499,10 +499,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\lg.woff"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\advertise.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\advertise.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/banner/advertise.jpg",
       "AssetKind": "All",
@@ -516,10 +516,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner\\advertise.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\banner-small-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\banner-small-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/banner/banner-small-1.jpg",
       "AssetKind": "All",
@@ -533,10 +533,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner\\banner-small-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\banner-small-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\banner-small-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/banner/banner-small-2.jpg",
       "AssetKind": "All",
@@ -550,10 +550,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner\\banner-small-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\banner-small.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\banner-small.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/banner/banner-small.jpg",
       "AssetKind": "All",
@@ -567,10 +567,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner\\banner-small.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\profile-banner.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\banner\\profile-banner.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/banner/profile-banner.jpg",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\images\\banner\\profile-banner.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/books/book-1.jpg",
       "AssetKind": "All",
@@ -601,10 +601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\book-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/books/book-2.jpg",
       "AssetKind": "All",
@@ -618,10 +618,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\book-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/books/book-3.jpg",
       "AssetKind": "All",
@@ -635,10 +635,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\book-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/books/book-4.jpg",
       "AssetKind": "All",
@@ -652,10 +652,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\book-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/books/book-5.jpg",
       "AssetKind": "All",
@@ -669,10 +669,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\book-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\books\\book-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/books/book-6.jpg",
       "AssetKind": "All",
@@ -686,10 +686,10 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\book-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\favicon.ico",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\favicon.ico",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/favicon.ico",
       "AssetKind": "All",
@@ -703,10 +703,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-1.jpg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-2.jpg",
       "AssetKind": "All",
@@ -737,10 +737,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-3.jpg",
       "AssetKind": "All",
@@ -754,10 +754,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-4.jpg",
       "AssetKind": "All",
@@ -771,10 +771,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-5.jpg",
       "AssetKind": "All",
@@ -788,10 +788,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-6.jpg",
       "AssetKind": "All",
@@ -805,10 +805,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-7.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-7.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-7.jpg",
       "AssetKind": "All",
@@ -822,10 +822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-8.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-8.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-8.jpg",
       "AssetKind": "All",
@@ -839,10 +839,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-9.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-9.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-9.jpg",
       "AssetKind": "All",
@@ -856,10 +856,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-1.jpg",
       "AssetKind": "All",
@@ -873,10 +873,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-2.jpg",
       "AssetKind": "All",
@@ -890,10 +890,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-3.jpg",
       "AssetKind": "All",
@@ -907,10 +907,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-4.jpg",
       "AssetKind": "All",
@@ -924,10 +924,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-5.jpg",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-6.jpg",
       "AssetKind": "All",
@@ -958,10 +958,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-7.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-7.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-7.jpg",
       "AssetKind": "All",
@@ -975,10 +975,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-8.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-8.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-8.jpg",
       "AssetKind": "All",
@@ -992,10 +992,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-9.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\gallery\\gallery-big-9.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/gallery/gallery-big-9.jpg",
       "AssetKind": "All",
@@ -1009,10 +1009,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\gallery-big-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\cancel.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\cancel.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/cancel.png",
       "AssetKind": "All",
@@ -1026,10 +1026,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\cancel.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\chat.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\chat.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/chat.png",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\chat.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\close.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\close.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/close.png",
       "AssetKind": "All",
@@ -1060,10 +1060,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\close.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\heart-color.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\heart-color.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/heart-color.png",
       "AssetKind": "All",
@@ -1077,10 +1077,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\heart-color.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\heart.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\heart.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/heart.png",
       "AssetKind": "All",
@@ -1094,10 +1094,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\heart.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\loading.gif",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\loading.gif",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/loading.gif",
       "AssetKind": "All",
@@ -1111,10 +1111,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\loading.gif"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\login.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\login.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/login.png",
       "AssetKind": "All",
@@ -1128,10 +1128,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\login.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\notification.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\notification.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/notification.png",
       "AssetKind": "All",
@@ -1145,10 +1145,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\notification.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\plane.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\plane.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/plane.png",
       "AssetKind": "All",
@@ -1162,10 +1162,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\plane.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\search-2.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\search-2.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/search-2.png",
       "AssetKind": "All",
@@ -1179,10 +1179,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\search-2.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\search-black.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\search-black.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/search-black.png",
       "AssetKind": "All",
@@ -1196,10 +1196,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\search-black.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\search.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\search.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/search.png",
       "AssetKind": "All",
@@ -1213,10 +1213,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\search.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\settings.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\settings.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/settings.png",
       "AssetKind": "All",
@@ -1230,10 +1230,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\settings.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\users.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\icons\\users.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/icons/users.png",
       "AssetKind": "All",
@@ -1247,10 +1247,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\users.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\loading.gif",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\loading.gif",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/loading.gif",
       "AssetKind": "All",
@@ -1264,10 +1264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\loading.gif"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\logo\\images.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\logo\\images.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/logo/images.jpg",
       "AssetKind": "All",
@@ -1281,10 +1281,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\images.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\logo\\logo-white.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\logo\\logo-white.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/logo/logo-white.png",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\logo-white.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\logo\\logo.png",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\logo\\logo.png",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/logo/logo.png",
       "AssetKind": "All",
@@ -1315,10 +1315,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-1.jpg",
       "AssetKind": "All",
@@ -1332,10 +1332,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-10.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-10.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-10.jpg",
       "AssetKind": "All",
@@ -1349,10 +1349,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-10.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-11.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-11.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-11.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-11.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-2.jpg",
       "AssetKind": "All",
@@ -1383,10 +1383,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-3.jpg",
       "AssetKind": "All",
@@ -1400,10 +1400,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-4.jpg",
       "AssetKind": "All",
@@ -1417,10 +1417,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-5.jpg",
       "AssetKind": "All",
@@ -1434,10 +1434,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-6.jpg",
       "AssetKind": "All",
@@ -1451,10 +1451,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-7.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-7.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-7.jpg",
       "AssetKind": "All",
@@ -1468,10 +1468,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-8.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-8.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-8.jpg",
       "AssetKind": "All",
@@ -1485,10 +1485,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-9.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-9.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-9.jpg",
       "AssetKind": "All",
@@ -1502,10 +1502,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-blank.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\photos\\photo-blank.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/photos/photo-blank.jpg",
       "AssetKind": "All",
@@ -1519,10 +1519,10 @@
       "OriginalItemSpec": "wwwroot\\images\\photos\\photo-blank.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-1.jpg",
       "AssetKind": "All",
@@ -1536,10 +1536,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-2.jpg",
       "AssetKind": "All",
@@ -1553,10 +1553,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-3.jpg",
       "AssetKind": "All",
@@ -1570,10 +1570,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-4.jpg",
       "AssetKind": "All",
@@ -1587,10 +1587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-5.jpg",
       "AssetKind": "All",
@@ -1604,10 +1604,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-6.jpg",
       "AssetKind": "All",
@@ -1621,10 +1621,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-7.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-7.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-7.jpg",
       "AssetKind": "All",
@@ -1638,10 +1638,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-large-1.jpg",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-large-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-large-2.jpg",
       "AssetKind": "All",
@@ -1672,10 +1672,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-large-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-large-3.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-large-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-large-4.jpg",
       "AssetKind": "All",
@@ -1706,10 +1706,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-large-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-large-5.jpg",
       "AssetKind": "All",
@@ -1723,10 +1723,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-large-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-large-6.jpg",
       "AssetKind": "All",
@@ -1740,10 +1740,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-large-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-7.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\post\\post-large-7.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/post/post-large-7.jpg",
       "AssetKind": "All",
@@ -1757,10 +1757,10 @@
       "OriginalItemSpec": "wwwroot\\images\\post\\post-large-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\OIP.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\OIP.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/OIP.jpg",
       "AssetKind": "All",
@@ -1774,10 +1774,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\OIP.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-1.jpg",
       "AssetKind": "All",
@@ -1791,10 +1791,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-1.jpg",
       "AssetKind": "All",
@@ -1808,10 +1808,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-10.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-10.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-10.jpg",
       "AssetKind": "All",
@@ -1825,10 +1825,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-10.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-11.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-11.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-11.jpg",
       "AssetKind": "All",
@@ -1842,10 +1842,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-11.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-12.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-12.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-12.jpg",
       "AssetKind": "All",
@@ -1859,10 +1859,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-12.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-13.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-13.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-13.jpg",
       "AssetKind": "All",
@@ -1876,10 +1876,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-13.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-14.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-14.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-14.jpg",
       "AssetKind": "All",
@@ -1893,10 +1893,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-14.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-15.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-15.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-15.jpg",
       "AssetKind": "All",
@@ -1910,10 +1910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-15.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-16.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-16.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-16.jpg",
       "AssetKind": "All",
@@ -1927,10 +1927,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-16.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-17.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-17.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-17.jpg",
       "AssetKind": "All",
@@ -1944,10 +1944,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-17.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-18.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-18.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-18.jpg",
       "AssetKind": "All",
@@ -1961,10 +1961,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-18.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-19.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-19.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-19.jpg",
       "AssetKind": "All",
@@ -1978,10 +1978,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-19.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-2.jpg",
       "AssetKind": "All",
@@ -1995,10 +1995,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-20.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-20.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-20.jpg",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-20.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-3.jpg",
       "AssetKind": "All",
@@ -2029,10 +2029,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-4.jpg",
       "AssetKind": "All",
@@ -2046,10 +2046,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-5.jpg",
       "AssetKind": "All",
@@ -2063,10 +2063,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-6.jpg",
       "AssetKind": "All",
@@ -2080,10 +2080,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-7.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-7.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-7.jpg",
       "AssetKind": "All",
@@ -2097,10 +2097,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-8.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-8.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-8.jpg",
       "AssetKind": "All",
@@ -2114,10 +2114,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-9.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-35x35-9.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-35x35-9.jpg",
       "AssetKind": "All",
@@ -2131,10 +2131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-35x35-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-midle-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-midle-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-midle-1.jpg",
       "AssetKind": "All",
@@ -2148,10 +2148,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-midle-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-midle-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-midle-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-midle-2.jpg",
       "AssetKind": "All",
@@ -2165,10 +2165,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-midle-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-midle-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-midle-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-midle-3.jpg",
       "AssetKind": "All",
@@ -2182,10 +2182,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-midle-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-1.jpg",
       "AssetKind": "All",
@@ -2199,10 +2199,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-10.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-10.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-10.jpg",
       "AssetKind": "All",
@@ -2216,10 +2216,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-10.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-11.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-11.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-11.jpg",
       "AssetKind": "All",
@@ -2233,10 +2233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-11.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-12.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-12.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-12.jpg",
       "AssetKind": "All",
@@ -2250,10 +2250,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-12.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-13.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-13.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-13.jpg",
       "AssetKind": "All",
@@ -2267,10 +2267,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-13.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-14.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-14.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-14.jpg",
       "AssetKind": "All",
@@ -2284,10 +2284,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-14.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-15.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-15.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-15.jpg",
       "AssetKind": "All",
@@ -2301,10 +2301,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-15.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-16.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-16.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-16.jpg",
       "AssetKind": "All",
@@ -2318,10 +2318,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-16.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-17.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-17.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-17.jpg",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-17.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-18.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-18.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-18.jpg",
       "AssetKind": "All",
@@ -2352,10 +2352,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-18.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-19.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-19.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-19.jpg",
       "AssetKind": "All",
@@ -2369,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-19.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-2.jpg",
       "AssetKind": "All",
@@ -2386,10 +2386,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-20.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-20.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-20.jpg",
       "AssetKind": "All",
@@ -2403,10 +2403,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-20.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-21.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-21.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-21.jpg",
       "AssetKind": "All",
@@ -2420,10 +2420,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-21.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-22.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-22.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-22.jpg",
       "AssetKind": "All",
@@ -2437,10 +2437,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-22.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-23.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-23.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-23.jpg",
       "AssetKind": "All",
@@ -2454,10 +2454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-23.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-24.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-24.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-24.jpg",
       "AssetKind": "All",
@@ -2471,10 +2471,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-24.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-25.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-25.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-25.jpg",
       "AssetKind": "All",
@@ -2488,10 +2488,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-25.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-26.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-26.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-26.jpg",
       "AssetKind": "All",
@@ -2505,10 +2505,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-26.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-27.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-27.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-27.jpg",
       "AssetKind": "All",
@@ -2522,10 +2522,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-27.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-28.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-28.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-28.jpg",
       "AssetKind": "All",
@@ -2539,10 +2539,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-28.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-29.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-29.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-29.jpg",
       "AssetKind": "All",
@@ -2556,10 +2556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-29.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-3.jpg",
       "AssetKind": "All",
@@ -2573,10 +2573,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-30.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-30.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-30.jpg",
       "AssetKind": "All",
@@ -2590,10 +2590,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-30.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-31.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-31.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-31.jpg",
       "AssetKind": "All",
@@ -2607,10 +2607,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-31.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-32.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-32.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-32.jpg",
       "AssetKind": "All",
@@ -2624,10 +2624,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-32.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-33.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-33.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-33.jpg",
       "AssetKind": "All",
@@ -2641,10 +2641,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-33.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-34.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-34.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-34.jpg",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-34.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-35.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-35.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-35.jpg",
       "AssetKind": "All",
@@ -2675,10 +2675,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-35.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-37.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-37.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-37.jpg",
       "AssetKind": "All",
@@ -2692,10 +2692,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-37.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-4.jpg",
       "AssetKind": "All",
@@ -2709,10 +2709,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-5.jpg",
       "AssetKind": "All",
@@ -2726,10 +2726,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-6.jpg",
       "AssetKind": "All",
@@ -2743,10 +2743,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-7.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-7.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-7.jpg",
       "AssetKind": "All",
@@ -2760,10 +2760,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-8.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-8.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-8.jpg",
       "AssetKind": "All",
@@ -2777,10 +2777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-9.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\profile\\profile-small-9.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/profile/profile-small-9.jpg",
       "AssetKind": "All",
@@ -2794,10 +2794,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile\\profile-small-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-1.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-1.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/sports/sport-1.jpg",
       "AssetKind": "All",
@@ -2811,10 +2811,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sports\\sport-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-2.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-2.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/sports/sport-2.jpg",
       "AssetKind": "All",
@@ -2828,10 +2828,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sports\\sport-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-3.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-3.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/sports/sport-3.jpg",
       "AssetKind": "All",
@@ -2845,10 +2845,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sports\\sport-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-4.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-4.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/sports/sport-4.jpg",
       "AssetKind": "All",
@@ -2862,10 +2862,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sports\\sport-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-5.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-5.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/sports/sport-5.jpg",
       "AssetKind": "All",
@@ -2879,10 +2879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sports\\sport-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-6.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\sports\\sport-6.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/sports/sport-6.jpg",
       "AssetKind": "All",
@@ -2896,10 +2896,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sports\\sport-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\timeline\\adda-timeline.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\timeline\\adda-timeline.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/timeline/adda-timeline.jpg",
       "AssetKind": "All",
@@ -2913,10 +2913,10 @@
       "OriginalItemSpec": "wwwroot\\images\\timeline\\adda-timeline.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\timeline\\logo.jpg",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\images\\timeline\\logo.jpg",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "images/timeline/logo.jpg",
       "AssetKind": "All",
@@ -2930,10 +2930,27 @@
       "OriginalItemSpec": "wwwroot\\images\\timeline\\logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\chat.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "BasePath": "_content/PL",
+      "RelativePath": "js/chat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\main.js",
+      "SourceId": "PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -2947,10 +2964,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\imagesloaded.pkgd.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\imagesloaded.pkgd.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/imagesloaded.pkgd.min.js",
       "AssetKind": "All",
@@ -2964,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\imagesloaded.pkgd.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\isotope.pkgd.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\isotope.pkgd.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/isotope.pkgd.min.js",
       "AssetKind": "All",
@@ -2981,10 +2998,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\isotope.pkgd.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\lightgallery-all.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\lightgallery-all.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/lightgallery-all.min.js",
       "AssetKind": "All",
@@ -2998,10 +3015,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\lightgallery-all.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\nice-select.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\nice-select.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/nice-select.min.js",
       "AssetKind": "All",
@@ -3015,10 +3032,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\nice-select.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\perfect-scrollbar.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\perfect-scrollbar.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/perfect-scrollbar.min.js",
       "AssetKind": "All",
@@ -3032,10 +3049,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\perfect-scrollbar.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\plugins.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\plugins.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/plugins.js",
       "AssetKind": "All",
@@ -3049,10 +3066,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\plugins.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\plugins.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\plugins.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/plugins.min.js",
       "AssetKind": "All",
@@ -3066,10 +3083,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\plugins.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\plyr.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\plyr.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/plyr.min.js",
       "AssetKind": "All",
@@ -3083,10 +3100,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\plyr.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\slick.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\plugins\\slick.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/plugins/slick.min.js",
       "AssetKind": "All",
@@ -3100,10 +3117,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins\\slick.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\site.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -3117,10 +3134,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\bootstrap.bundle.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/vendor/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3134,10 +3151,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\bootstrap.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/vendor/bootstrap.min.js",
       "AssetKind": "All",
@@ -3151,10 +3168,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\jquery-3.6.0.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\jquery-3.6.0.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/vendor/jquery-3.6.0.min.js",
       "AssetKind": "All",
@@ -3168,10 +3185,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\jquery-3.6.0.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\modernizr-3.6.0.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\modernizr-3.6.0.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/vendor/modernizr-3.6.0.min.js",
       "AssetKind": "All",
@@ -3185,10 +3202,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\modernizr-3.6.0.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\popper.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\popper.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/vendor/popper.min.js",
       "AssetKind": "All",
@@ -3202,10 +3219,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\vendor.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\vendor.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/vendor/vendor.js",
       "AssetKind": "All",
@@ -3219,10 +3236,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\vendor.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\vendor.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\vendor\\vendor.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "js/vendor/vendor.min.js",
       "AssetKind": "All",
@@ -3236,10 +3253,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vendor\\vendor.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3253,10 +3270,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3270,10 +3287,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3287,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3304,10 +3321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -3321,10 +3338,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -3338,10 +3355,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -3355,10 +3372,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3372,10 +3389,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3389,10 +3406,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3406,10 +3423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3423,10 +3440,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3440,10 +3457,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3457,10 +3474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3474,10 +3491,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3491,10 +3508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3508,10 +3525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3525,10 +3542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3542,10 +3559,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3559,10 +3576,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3576,10 +3593,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3593,10 +3610,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3610,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3627,10 +3644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3644,10 +3661,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3661,10 +3678,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3678,10 +3695,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3695,10 +3712,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3712,10 +3729,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3729,10 +3746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3746,10 +3763,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3763,10 +3780,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3780,10 +3797,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3797,10 +3814,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3814,10 +3831,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3831,10 +3848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3848,10 +3865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3865,10 +3882,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3882,10 +3899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3899,10 +3916,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3916,10 +3933,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3933,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3950,10 +3967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3967,10 +3984,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3984,10 +4001,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -4001,10 +4018,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4018,10 +4035,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4035,10 +4052,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -4052,10 +4069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4069,10 +4086,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4086,10 +4103,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4103,10 +4120,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4120,10 +4137,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4137,10 +4154,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4154,10 +4171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -4171,10 +4188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -4188,10 +4205,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -4205,10 +4222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_components.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_components.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/_components.scss",
       "AssetKind": "All",
@@ -4222,10 +4239,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\_components.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_mixins.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_mixins.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/_mixins.scss",
       "AssetKind": "All",
@@ -4239,10 +4256,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_pages.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_pages.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/_pages.scss",
       "AssetKind": "All",
@@ -4256,10 +4273,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\_pages.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_tableofcontent.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_tableofcontent.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/_tableofcontent.scss",
       "AssetKind": "All",
@@ -4273,10 +4290,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\_tableofcontent.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_typography.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_typography.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/_typography.scss",
       "AssetKind": "All",
@@ -4290,10 +4307,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\_typography.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_variables.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\_variables.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/_variables.scss",
       "AssetKind": "All",
@@ -4307,10 +4324,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_footer.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_footer.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_footer.scss",
       "AssetKind": "All",
@@ -4324,10 +4341,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_footer.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_friend-request.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_friend-request.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_friend-request.scss",
       "AssetKind": "All",
@@ -4341,10 +4358,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_friend-request.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_header.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_header.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_header.scss",
       "AssetKind": "All",
@@ -4358,10 +4375,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_header.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_login.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_login.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_login.scss",
       "AssetKind": "All",
@@ -4375,10 +4392,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_login.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_main-wrapper.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_main-wrapper.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_main-wrapper.scss",
       "AssetKind": "All",
@@ -4392,10 +4409,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_main-wrapper.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_mobile-header.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_mobile-header.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_mobile-header.scss",
       "AssetKind": "All",
@@ -4409,10 +4426,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_mobile-header.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_profile.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_profile.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_profile.scss",
       "AssetKind": "All",
@@ -4426,10 +4443,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_profile.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_sidebar.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_sidebar.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_sidebar.scss",
       "AssetKind": "All",
@@ -4443,10 +4460,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_sidebar.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_spacing.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\components\\_spacing.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/components/_spacing.scss",
       "AssetKind": "All",
@@ -4460,10 +4477,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_spacing.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\pages\\_about.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\pages\\_about.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/pages/_about.scss",
       "AssetKind": "All",
@@ -4477,10 +4494,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\pages\\_about.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\pages\\_photos.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\pages\\_photos.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/pages/_photos.scss",
       "AssetKind": "All",
@@ -4494,10 +4511,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\pages\\_photos.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\pages\\_profile.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\pages\\_profile.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/pages/_profile.scss",
       "AssetKind": "All",
@@ -4511,10 +4528,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\pages\\_profile.scss"
     },
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\style.scss",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\scss\\style.scss",
       "SourceId": "PL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
       "BasePath": "_content/PL",
       "RelativePath": "scss/style.scss",
       "AssetKind": "All",

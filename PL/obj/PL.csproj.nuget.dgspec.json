@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj": {}
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\obj\\",
+        "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -86,34 +92,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj": {
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj"
+              "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj"
               }
             }
           }
@@ -132,6 +140,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -180,37 +192,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj": {
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj",
+        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj",
         "projectName": "PL",
-        "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\PL\\obj\\",
+        "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj",
+        "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj"
+              "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj"
               },
-              "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj"
+              "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj"
               }
             }
           }
@@ -225,6 +239,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.12, )"
@@ -301,7 +319,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

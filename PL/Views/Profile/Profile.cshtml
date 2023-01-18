@@ -716,6 +716,7 @@
                         <!-- post status start -->
                         @foreach(var item in ViewBag.userPost.userPost)
                         {
+                            @foreach(var item2 in ViewBag.ReactionPost.ReactionPost)
                             @if (item.utilisateur_id_fk.Equals(ViewBag.user.utilisateur_id))
                             {
                                 <div class="card">
@@ -742,9 +743,8 @@
                                             <span></span>
                                             <div class="post-settings arrow-shape">
                                                 <ul>
-                                                    <li><button>copy link to adda</button></li>
                                                     <li><button>edit post</button></li>
-                                                    <li><button>embed adda</button></li>
+                                                    <li><button>delete post </button></li>
                                                 </ul>
                                             </div>
                                         </div>

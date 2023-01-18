@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "YOgKGCbePDxFmtUFSZY3/SnRsRtmnPzx1tdORjbrXYg=",
+  "Hash": "QxzjFRE9EnfMM9XBwnosrHFJVPvb/Xf+WPsQEiSdBrE=",
   "Source": "DAL",
   "BasePath": "_content/DAL",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
       "Version": 2,
       "Source": "BL",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {}
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\RiderProjects\\Gestion-Forum\\BL\\obj\\",
+        "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -86,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

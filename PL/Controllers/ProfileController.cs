@@ -52,7 +52,7 @@ public class ProfileController : Controller
         
         
         Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
-            System.IO.File.ReadAllText(@"C:\Users\MSI\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
+            System.IO.File.ReadAllText(@"C:\Users\mabro\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
         ViewBag.user = u;
         ViewBag.userPost = viewModel2;
         ViewBag.ReactionPost = viewModel3;

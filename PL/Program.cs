@@ -1,3 +1,4 @@
+using BL.Hubs;
 using DAL.DataBaseContext;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,9 @@ builder.Services.AddDbContext<ForumDbContext>(options =>
 {
     options.UseSqlServer("Data Source=(local);Initial Catalog=OthmenOussema;Trusted_Connection=True; MultipleActiveResultSets=true;Integrated Security=True");
 });
+builder.Services.AddSignalR();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,7 +30,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapHub<ChatHub>("/chat");
+});
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Login}/{action=Index}/{id?}"

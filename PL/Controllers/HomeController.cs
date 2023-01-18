@@ -69,11 +69,11 @@ public class HomeController : Controller
         ViewData["BlogList"] = viewModel;
         ViewData["PostList"] = viewModel2;
         ViewData["ReactionPost"] = viewModel3;
-        ViewData["Nom"] = "localNom";
-        ViewData["Prenom"] = "localPrenom";
+        ViewData["Nom"] = localNom;
+        ViewData["Prenom"] = localPrenom;
         ViewData["blog"] = new SelectList(_context.blog, "blog_reference", "blog_title");
         Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
-            System.IO.File.ReadAllText(@"C:\Users\MSI\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
+            System.IO.File.ReadAllText(@"C:\Users\mabro\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
         ViewBag.user = u;
         return View();
     }
