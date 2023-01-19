@@ -20,6 +20,11 @@ public class ProfileController : Controller
             .Include(x => x.utilisateur).ThenInclude(u => u.role).Include(x => x.post).ToList();
         return userPost;
     }
+    public List<FriendshipRequest> FindFriendshipRequest()
+    {
+        var friendshipRequest = _context.friendshipRequest.Include(x=>x.receiver).Include(x=>x.sender).ToList();
+        return friendshipRequest;
+    }
 
     public List<UtilisateurPost> FindLatestUsersPost()
     {
@@ -49,6 +54,10 @@ public class ProfileController : Controller
         {
            LatestUserPost = FindLatestUsersPost()
         };
+        var ViewModel5 = new ArrayViewModel2()
+        {
+            FriendshipRequest = FindFriendshipRequest()
+        };
         
         
         Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
@@ -57,6 +66,7 @@ public class ProfileController : Controller
         ViewBag.userPost = viewModel2;
         ViewBag.ReactionPost = viewModel3;
         ViewBag.userLatestPost = viewModel4;
+        ViewBag.FriendshipRequest = ViewModel5;
        return   View("Profile");
     }
 
@@ -68,4 +78,5 @@ public class ArrayViewModel2
     public List<UtilisateurPost> userPost { get; set; }
     public List<UtilisateurPost> LatestUserPost { get; set; }
     public List<Reaction_Post> ReactionPost { get; set; }
+    public List<FriendshipRequest> FriendshipRequest { get; set; }
 }

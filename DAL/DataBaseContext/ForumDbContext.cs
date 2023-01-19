@@ -24,4 +24,5 @@ public class ForumDbContext:DbContext
     public DbSet<UtilisateurPost> utilisateur_Post{get;set;}
     public DbSet<PostComment> PostComments{get;set;}
     public DbSet<Blog> blog{get;set;}
+    public DbSet<FriendshipRequest> friendshipRequest{get;set;}
 }

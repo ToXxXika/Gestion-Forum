@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1yydB47nKaIctWn+dIzHEsM2hRVdrYvQAouexx2YS/A=",
+  "Hash": "kDj7EobDVNETMP5zNeKbDfE13EA6tnlppB5q1cirHN0=",
   "Source": "PL",
   "BasePath": "_content/PL",
   "Mode": "Default",
@@ -3115,6 +3115,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\plugins\\slick.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "BasePath": "_content/PL",
+      "RelativePath": "js/signalr/dist/browser/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "SourceId": "PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\",
+      "BasePath": "_content/PL",
+      "RelativePath": "js/signalr/dist/browser/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
       "Identity": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\wwwroot\\js\\site.js",

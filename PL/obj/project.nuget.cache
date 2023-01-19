@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9mS88zM7SF5giaE+hzOyQ0B9ImKmgaUzA3vB3k8wUB7PZXe/IYnuXkOnD83qlfE57pVdCYAcizFv9pnkDSj+ew==",
+  "dgSpecHash": "fsNXtuzQwR8VQsFCJOQiTFeb4GmfIJAKWeI72+2TnZoC5Wi6aef1eFbpn5tiiTX1nnfFNtzyz4HoSE+Sje6g2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\PL\\PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mabro\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\mabro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\mabro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\mabro\\.nuget\\packages\\jquery\\1.6.3\\jquery.1.6.3.nupkg.sha512",
     "C:\\Users\\mabro\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\mabro\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\mabro\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
@@ -201,31 +200,7 @@
     "C:\\Users\\mabro\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\mabro\\.nuget\\packages\\system.threading.tasks.dataflow\\6.0.0\\system.threading.tasks.dataflow.6.0.0.nupkg.sha512",
     "C:\\Users\\mabro\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\mabro\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\mabro\\.nuget\\packages\\toastnotifications\\2.5.1\\toastnotifications.2.5.1.nupkg.sha512",
-    "C:\\Users\\mabro\\.nuget\\packages\\toastnotifications.messages\\2.5.1\\toastnotifications.messages.2.5.1.nupkg.sha512",
-    "C:\\Users\\mabro\\.nuget\\packages\\toastr\\2.1.1\\toastr.2.1.1.nupkg.sha512"
+    "C:\\Users\\mabro\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'ToastNotifications 2.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "ToastNotifications",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'ToastNotifications.Messages 2.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "ToastNotifications.Messages",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

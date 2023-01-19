@@ -20,10 +20,7 @@
           "Microsoft.NET.Test.Sdk": "17.4.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11",
           "NUnit": "3.13.3",
-          "Newtonsoft.Json": "13.0.2",
-          "ToastNotifications": "2.5.1",
-          "ToastNotifications.Messages": "2.5.1",
-          "toastr": "2.1.1"
+          "Newtonsoft.Json": "13.0.2"
         },
         "runtime": {
           "PL.dll": {}
@@ -61,7 +58,6 @@
           }
         }
       },
-      "jQuery/1.6.3": {},
       "MessagePack/2.1.152": {
         "dependencies": {
           "MessagePack.Annotations": "2.1.152",
@@ -2691,30 +2687,6 @@
           }
         }
       },
-      "ToastNotifications/2.5.1": {
-        "runtime": {
-          "lib/net40/ToastNotifications.dll": {
-            "assemblyVersion": "2.5.1.0",
-            "fileVersion": "2.5.1.0"
-          }
-        }
-      },
-      "ToastNotifications.Messages/2.5.1": {
-        "dependencies": {
-          "ToastNotifications": "2.5.1"
-        },
-        "runtime": {
-          "lib/net40/ToastNotifications.Messages.dll": {
-            "assemblyVersion": "2.5.1.0",
-            "fileVersion": "2.5.1.0"
-          }
-        }
-      },
-      "toastr/2.1.1": {
-        "dependencies": {
-          "jQuery": "1.6.3"
-        }
-      },
       "BL/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.SignalR": "1.1.0",
@@ -2769,13 +2741,6 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
-    },
-    "jQuery/1.6.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vb0p7+eRmc2evBCT9W7PCUupqWiDMi9/ofBHN99LraRzLY5jPKMeFzFYBoMgwA8TiwRoFDke5hiDDLsvae7qMg==",
-      "path": "jquery/1.6.3",
-      "hashPath": "jquery.1.6.3.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
@@ -4134,27 +4099,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "ToastNotifications/2.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0ZBWG0FCPafwbIzNhjWgC0GEOyk51GF3rYWrh5QJ61ZxDEoLgdDsEUt8HMxYN7lRLVt/mWhtgdbe4OmhXfwtkA==",
-      "path": "toastnotifications/2.5.1",
-      "hashPath": "toastnotifications.2.5.1.nupkg.sha512"
-    },
-    "ToastNotifications.Messages/2.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KG4oMi61ShmRuPK3/yAFhUph/rZGYmS8IcsIvF2Fk3np11fQo6ZjdK2XUmFnY9b0oQY9IilxhCmOdVGoOGEeHQ==",
-      "path": "toastnotifications.messages/2.5.1",
-      "hashPath": "toastnotifications.messages.2.5.1.nupkg.sha512"
-    },
-    "toastr/2.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-h/688XvzYk1xVYn213ryU+HCElE4n/drYzAHJkAi9LsSUPS3EbI6wGlvCglBUt7i4h5iESgAVarYaigjQmVpqg==",
-      "path": "toastr/2.1.1",
-      "hashPath": "toastr.2.1.1.nupkg.sha512"
     },
     "BL/1.0.0": {
       "type": "project",

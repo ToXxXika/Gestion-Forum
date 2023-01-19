@@ -286,18 +286,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
-            },
-            "ToastNotifications": {
-              "target": "Package",
-              "version": "[2.5.1, )"
-            },
-            "ToastNotifications.Messages": {
-              "target": "Package",
-              "version": "[2.5.1, )"
-            },
-            "toastr": {
-              "target": "Package",
-              "version": "[2.1.1, )"
             }
           },
           "imports": [

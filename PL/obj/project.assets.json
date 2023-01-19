@@ -49,9 +49,6 @@
           }
         }
       },
-      "jQuery/1.6.3": {
-        "type": "package"
-      },
       "MessagePack/2.1.152": {
         "type": "package",
         "dependencies": {
@@ -4151,33 +4148,6 @@
           }
         }
       },
-      "ToastNotifications/2.5.1": {
-        "type": "package",
-        "compile": {
-          "lib/net40/ToastNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/net40/ToastNotifications.dll": {}
-        }
-      },
-      "ToastNotifications.Messages/2.5.1": {
-        "type": "package",
-        "dependencies": {
-          "ToastNotifications": "2.5.1"
-        },
-        "compile": {
-          "lib/net40/ToastNotifications.Messages.dll": {}
-        },
-        "runtime": {
-          "lib/net40/ToastNotifications.Messages.dll": {}
-        }
-      },
-      "toastr/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "jQuery": "1.6.3"
-        }
-      },
       "BL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -4267,24 +4237,6 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
-      ]
-    },
-    "jQuery/1.6.3": {
-      "sha512": "vb0p7+eRmc2evBCT9W7PCUupqWiDMi9/ofBHN99LraRzLY5jPKMeFzFYBoMgwA8TiwRoFDke5hiDDLsvae7qMg==",
-      "type": "package",
-      "path": "jquery/1.6.3",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/Scripts/jquery-1.6.3-vsdoc.js",
-        "Content/Scripts/jquery-1.6.3.js",
-        "Content/Scripts/jquery-1.6.3.min.js",
-        "Tools/install.ps1",
-        "Tools/jquery-1.6.3-vsdoc-para.js",
-        "Tools/uninstall.ps1",
-        "jquery.1.6.3.nupkg.sha512",
-        "jquery.nuspec"
       ]
     },
     "MessagePack/2.1.152": {
@@ -10792,48 +10744,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ToastNotifications/2.5.1": {
-      "sha512": "0ZBWG0FCPafwbIzNhjWgC0GEOyk51GF3rYWrh5QJ61ZxDEoLgdDsEUt8HMxYN7lRLVt/mWhtgdbe4OmhXfwtkA==",
-      "type": "package",
-      "path": "toastnotifications/2.5.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/ToastNotifications.dll",
-        "readme.txt",
-        "toastnotifications.2.5.1.nupkg.sha512",
-        "toastnotifications.nuspec"
-      ]
-    },
-    "ToastNotifications.Messages/2.5.1": {
-      "sha512": "KG4oMi61ShmRuPK3/yAFhUph/rZGYmS8IcsIvF2Fk3np11fQo6ZjdK2XUmFnY9b0oQY9IilxhCmOdVGoOGEeHQ==",
-      "type": "package",
-      "path": "toastnotifications.messages/2.5.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/ToastNotifications.Messages.dll",
-        "toastnotifications.messages.2.5.1.nupkg.sha512",
-        "toastnotifications.messages.nuspec"
-      ]
-    },
-    "toastr/2.1.1": {
-      "sha512": "h/688XvzYk1xVYn213ryU+HCElE4n/drYzAHJkAi9LsSUPS3EbI6wGlvCglBUt7i4h5iESgAVarYaigjQmVpqg==",
-      "type": "package",
-      "path": "toastr/2.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/content/toastr.css",
-        "content/content/toastr.less",
-        "content/content/toastr.min.css",
-        "content/content/toastr.scss",
-        "content/scripts/toastr.js",
-        "content/scripts/toastr.min.js",
-        "toastr.2.1.1.nupkg.sha512",
-        "toastr.nuspec"
-      ]
-    },
     "BL/1.0.0": {
       "type": "project",
       "path": "../BL/BL.csproj",
@@ -10859,10 +10769,7 @@
       "Microsoft.NET.Test.Sdk >= 17.4.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.11",
       "NUnit >= 3.13.3",
-      "Newtonsoft.Json >= 13.0.2",
-      "ToastNotifications >= 2.5.1",
-      "ToastNotifications.Messages >= 2.5.1",
-      "toastr >= 2.1.1"
+      "Newtonsoft.Json >= 13.0.2"
     ]
   },
   "packageFolders": {
@@ -10958,18 +10865,6 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.2, )"
-          },
-          "ToastNotifications": {
-            "target": "Package",
-            "version": "[2.5.1, )"
-          },
-          "ToastNotifications.Messages": {
-            "target": "Package",
-            "version": "[2.5.1, )"
-          },
-          "toastr": {
-            "target": "Package",
-            "version": "[2.1.1, )"
           }
         },
         "imports": [
@@ -10994,27 +10889,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'ToastNotifications 2.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "ToastNotifications",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'ToastNotifications.Messages 2.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "ToastNotifications.Messages",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

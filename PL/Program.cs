@@ -15,6 +15,7 @@ builder.Services.AddSignalR();
 
 var app = builder.Build();
 
+app.MapHub<ChatHub>("/chatHub");
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

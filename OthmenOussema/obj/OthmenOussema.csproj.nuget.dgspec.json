@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\OthmenOussema\\OthmenOussema.csproj": {}
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\OthmenOussema\\OthmenOussema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj": {
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj",
+        "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\obj\\",
+        "outputPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -63,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
             }
           },
           "imports": [
@@ -88,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\DAL\\DAL.csproj": {
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\BL\\BL.csproj"
+              "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\BL\\BL.csproj"
               }
             }
           }
@@ -132,6 +140,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -155,6 +167,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
             }
           },
           "imports": [
@@ -180,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\OthmenOussema\\OthmenOussema.csproj": {
+    "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\OthmenOussema\\OthmenOussema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\OthmenOussema\\OthmenOussema.csproj",
+        "projectUniqueName": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\OthmenOussema\\OthmenOussema.csproj",
         "projectName": "OthmenOussema",
-        "projectPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\OthmenOussema\\OthmenOussema.csproj",
+        "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\OthmenOussema\\OthmenOussema.csproj",
         "packagesPath": "C:\\Users\\mabro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\OthmenOussema\\obj\\",
+        "outputPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\OthmenOussema\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,8 +220,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\mabro\\RiderProjects\\OthmenOussema\\DAL\\DAL.csproj"
+              "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\mabro\\RiderProjects\\Gestion-Forum\\DAL\\DAL.csproj"
               }
             }
           }

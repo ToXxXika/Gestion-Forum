@@ -44,8 +44,7 @@ public class Utilisateur
     [Column("phone")]
     public string phone { get; set;  }
     [StringLength(255)]
-    [Column("About")]
-    public string About { get; set; }
+
     
     
     [Column("about")]
