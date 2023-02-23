@@ -4,8 +4,9 @@ using DAL.DataBaseContext;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PL.Models;
-using BL.Repositories;
+using Hanssens.Net;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection;
 using Newtonsoft.Json;
 
 namespace PL.Controllers;
@@ -14,8 +15,7 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly ForumDbContext _context;
-    private readonly PostRepository _postRepository;
-    private readonly BlogRepository _blogRepository;
+ 
     private static int idUser;
 
     public HomeController(ILogger<HomeController> logger, ForumDbContext context)
@@ -48,8 +48,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        var  data = HttpContext.Session.GetString("username");
+        
+        
         var blogsList = GetBlogs();
         var userPost = FindUsersPost();
+        var ReactionList = FindReaction_Post();
 
         var viewModel2 = new ArrayViewModel()
         {
@@ -61,7 +65,7 @@ public class HomeController : Controller
         };
         var viewModel3 = new ArrayViewModel
         {
-            ReactionPost = FindReaction_Post()
+            ReactionPost = ReactionList
         };
         //receive the data from LoginController
         var localNom = TempData["LocalNom"];
@@ -74,6 +78,7 @@ public class HomeController : Controller
         ViewData["blog"] = new SelectList(_context.blog, "blog_reference", "blog_title");
         Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
             System.IO.File.ReadAllText(@"C:\Users\mabro\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
+        Console.WriteLine(viewModel3.ReactionPost.Count);
         ViewBag.user = u;
         return View();
     }
@@ -93,7 +98,7 @@ public class HomeController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> AddPost([Bind("post_title,post_content,post_subtitle,blog_ref")] Post post)
     {
-        Console.WriteLine("Hello i'm here ");
+     
         post.post_ref = GenrateRandomReference();
         Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
             System.IO.File.ReadAllText(@"C:\Users\MSI\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));

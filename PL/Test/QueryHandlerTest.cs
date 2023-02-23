@@ -26,4 +26,5 @@ public class QueryHandlerTest
         var result = Lc.VerifyLogs(login);
         Assert.NotNull(result);
     }
+    
 }

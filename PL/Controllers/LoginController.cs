@@ -1,15 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BL.Models;
 using DAL.DataBaseContext;
+using Hanssens.Net;
 using Newtonsoft.Json;
-using SQLitePCL;
-using static System.Security.Principal.WindowsIdentity;
+using Blazored.LocalStorage;
+
 
 namespace PL.Controllers
 {
@@ -33,9 +30,6 @@ namespace PL.Controllers
         [HttpPost]
         public async Task<IActionResult> VerifyLogs([Bind("mail", "pwd")] Login _Login)
         {
-            //check if context is initialized 
-            //display Login
-            Console.WriteLine(_Login.mail + " " + _Login.pwd);
             //verify if the user exists
             var user = await _context.login.FirstOrDefaultAsync(m => m.mail == _Login.mail && m.pwd == _Login.pwd);
             if (user != null)
@@ -49,17 +43,18 @@ namespace PL.Controllers
                 TempData["LocalUserName"] = user2?.username;
                 TempData["adresse"] = user2?.adresse;
                 TempData["LocalId"] = user2?.utilisateur_id;
-                string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-
-
+                ViewBag.userName = user2.username;
                 await System.IO.File.WriteAllTextAsync(
                     @"C:\Users\mabro\RiderProjects\\Gestion-Forum\\PL\\JsonDeserializer\\user.json",
                     JsonConvert.SerializeObject(user2));
+   
 
+                HttpContext.Session.SetString("username", user2.username);
+             
+                
 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Home",new {data = user2.username});
             }
-
             Console.WriteLine("USER NOT FOUND ");
             return RedirectToAction("Index", "Login");
         }
@@ -71,3 +66,6 @@ namespace PL.Controllers
         }
     }
 }
+
+    
+   

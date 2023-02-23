@@ -58,7 +58,7 @@
         <nav>
             <ul>
                 <li class="active">
-                    <a href="index.html">home</a>
+                    <a asp-controller="Home">home</a>
                 </li>
                 <li class="msg-trigger">
                     <a class="msg-trigger-btn" href="#a">message</a>
@@ -95,54 +95,7 @@
                                 </div>
                                 <!-- message time end -->
                             </li>
-                            <li class="msg-list-item d-flex justify-content-between">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <figure class="profile-thumb-middle">
-                                        <img src="./images/profile/profile-small-4.jpg" alt="profile picture">
-                                    </figure>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <!-- message content start -->
-                                <div class="msg-content">
-                                    <h6 class="author">
-                                        <a href="profile.html">Jhon Doe</a>
-                                    </h6>
-                                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default</p>
-                                </div>
-                                <!-- message content end -->
-
-                                <!-- message time start -->
-                                <div class="msg-time">
-                                    <p>15 May 2019</p>
-                                </div>
-                                <!-- message time end -->
-                            </li>
-                            <li class="msg-list-item d-flex justify-content-between">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <figure class="profile-thumb-middle">
-                                        <img src="./images/profile/profile-small-5.jpg" alt="profile picture">
-                                    </figure>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <!-- message content start -->
-                                <div class="msg-content">
-                                    <h6 class="author">
-                                        <a href="profile.html">Jon Wileyam</a>
-                                    </h6>
-                                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default</p>
-                                </div>
-                                <!-- message content end -->
-
-                                <!-- message time start -->
-                                <div class="msg-time">
-                                    <p>20 Jun 2019</p>
-                                </div>
-                                <!-- message time end -->
-                            </li>
+                            
                         </ul>
                         <div class="msg-dropdown-footer">
                             <button>See all in messenger</button>
@@ -180,52 +133,6 @@
                                 <!-- message time start -->
                                 <div class="msg-time">
                                     <p>25 Apr 2019</p>
-                                </div>
-                                <!-- message time end -->
-                            </li>
-                            <li class="msg-list-item d-flex justify-content-between">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <figure class="profile-thumb-middle">
-                                        <img src="./images/profile/profile-small-4.jpg" alt="profile picture">
-                                    </figure>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <!-- message content start -->
-                                <div class="msg-content notification-content">
-                                    <a href="profile.html">Robert mushkil</a>,
-                                    <a href="profile.html">Terry jhon</a>
-                                    <p>and 20 other people reacted to your photo</p>
-                                </div>
-                                <!-- message content end -->
-
-                                <!-- message time start -->
-                                <div class="msg-time">
-                                    <p>20 May 2019</p>
-                                </div>
-                                <!-- message time end -->
-                            </li>
-                            <li class="msg-list-item d-flex justify-content-between">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <figure class="profile-thumb-middle">
-                                        <img src="./images/profile/profile-small-6.jpg" alt="profile picture">
-                                    </figure>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <!-- message content start -->
-                                <div class="msg-content notification-content">
-                                    <a href="profile.html">Horijon Mbala</a>,
-                                    <a href="profile.html">Bashu jhon</a>
-                                    <p>and 55 other people reacted to your post</p>
-                                </div>
-                                <!-- message content end -->
-
-                                <!-- message time start -->
-                                <div class="msg-time">
-                                    <p>15 Jan 2019</p>
                                 </div>
                                 <!-- message time end -->
                             </li>
@@ -283,7 +190,7 @@
                     <div class="profile-body">
                         <ul>
                             <li>
-                                <a asp-controller="Profile"><i class="flaticon-user"></i>Profile</a>
+                                <a asp-controller="Profile" asp-action="Index" ><i class="flaticon-user"></i>Profile</a>
                             </li>
                             <li>
                                 <a href="#"><i class="flaticon-message"></i>Inbox</a>
@@ -509,7 +416,7 @@
                         <a href="#"><i class="flaticon-settings"></i>Setting</a>
                     </li>
                     <li>
-                        <a href="signup.html"><i class="flaticon-unlock"></i>Sing out</a>
+                        <a href="signup.html"><i class="flaticon-unlock"></i>Sign out</a>
                     </li>
                 </ul>
             </div>
@@ -560,6 +467,7 @@
                 <ul class="like-page-list-wrapper">
                     @foreach (var item in postList.userPost)
                     {
+                        
                         <li class="unorder-list">
                             <!-- profile picture end -->
                             <div class="profile-thumb">
@@ -646,83 +554,94 @@
     <!-- post status start -->
     @foreach (var item2 in postList.userPost)
     {
-        <div class="card">
-            <!-- post title start -->
-            <div class="post-title d-flex align-items-center">
-                <!-- profile picture end -->
+        @foreach (var Reaction in ReactionList.ReactionPost)
+        {
+         
 
-                <div class="profile-thumb">
-                    <a href="#">
-                        <figure class="profile-thumb-middle">
-                            <img src="./images/profile/profile-small-1.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-                <!-- profile picture end -->
+             @if (Reaction.post_ref_pk.Equals(item2.post.post_ref))
+             {
 
-                <div class="posted-author">
-                    <h6 class="author">
-                        <a href="profile.html">@item2.utilisateur.nom @item2.utilisateur.prenom</a>
-                    </h6>
-                    <span class="post-time">@item2.utilisateur.username</span>
-                </div>
 
-                <div class="post-settings-bar">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <div class="post-settings arrow-shape">
-                        <ul>
-                            <li>
-                                <button>copy link to adda</button>
-                            </li>
-                            <li>
-                                <button>edit post</button>
-                            </li>
-                            <li>
-                                <button>embed adda</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                }
-            </div>
-            <!-- post title start -->
-            <div class="post-content">
-                <p class="post-desc">
-                    @item2.post.post_content
-                </p>
-                <div class="post-thumb-gallery">
-                    <figure class="post-thumb img-popup">
-                        <a href="./images/post/post-1.jpg">
-                            <img src="./images/post/post-1.jpg" alt="post image">
-                        </a>
-                    </figure>
-                </div>
-                <div class="post-meta">
-                    <button class="post-meta-like">
-                        <i class="bi bi-heart-beat"></i>
-                        <span>You and 201 people like this</span>
-                        <strong>201</strong>
-                    </button>
-                    <ul class="comment-share-meta">
-                        <li>
-                            <button class="post-comment">
-                                <i class="bi bi-chat-bubble"></i>
-                                <span>41</span>
-                            </button>
-                        </li>
-                        <li>
-                            <button class="post-share">
-                                <i class="bi bi-share"></i>
-                                <span>07</span>
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                 <div class="card">
+                     <!-- post title start -->
+                     <div class="post-title d-flex align-items-center">
+                         <!-- profile picture end -->
 
-        </div>
+                         <div class="profile-thumb">
+                             <a href="#">
+                                 <figure class="profile-thumb-middle">
+                                     <img src="./images/profile/profile-small-1.jpg" alt="profile picture">
+                                 </figure>
+                             </a>
+                         </div>
+                         <!-- profile picture end -->
+
+                         <div class="posted-author">
+                             <h6 class="author">
+                                 <a href="profile.html">@item2.utilisateur.nom @item2.utilisateur.prenom</a>
+                             </h6>
+                             <span class="post-time">@item2.utilisateur.username</span>
+                         </div>
+
+                         <div class="post-settings-bar">
+                             <span></span>
+                             <span></span>
+                             <span></span>
+                             <div class="post-settings arrow-shape">
+                                 <ul>
+                                     <li>
+                                         <button>copy link to adda</button>
+                                     </li>
+                                     <li>
+                                         <button>edit post</button>
+                                     </li>
+                                     <li>
+                                         <button>embed adda</button>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                     </div>
+
+                     <!-- post title start -->
+                     <div class="post-content">
+                         <p class="post-desc">
+                             @item2.post.post_content
+                         </p>
+                         <div class="post-thumb-gallery">
+                             <figure class="post-thumb img-popup">
+                                 <a href="./images/post/post-1.jpg">
+                                     <img src="./images/post/post-1.jpg" alt="post image">
+                                 </a>
+                             </figure>
+                         </div>
+                         <div class="post-meta">
+                             <button class="post-meta-like">
+                                 <i class="bi bi-heart-beat"></i>
+                                 <span><p>@Reaction.reaction_count</p> people like this</span>
+                                 <strong>201</strong>
+                             </button>
+                             <ul class="comment-share-meta">
+                                 <li>
+                                     <button class="post-comment">
+                                         <i class="bi bi-chat-bubble"></i>
+                                         <span>41</span>
+                                     </button>
+                                 </li>
+                                 <li>
+                                     <button class="post-share">
+                                         <i class="bi bi-share"></i>
+                                         <span>07</span>
+                                     </button>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+
+                 </div>
+             }
+        }
     }
 
 
@@ -735,16 +654,7 @@
         <!-- widget single item end -->
 
         <!-- widget single item start -->
-        <div class="card widget-item">
-            <h4 class="widget-title">Advertisment</h4>
-            <div class="widget-body">
-                <div class="add-thumb">
-                    <a href="#">
-                        <img src="./images/banner/advertise.jpg" alt="advertisement">
-                    </a>
-                </div>
-            </div>
-        </div>
+       
         <!-- widget single item end -->
 
         <!-- widget single item start -->
@@ -894,148 +804,7 @@
         </div>
         <div class="frnd-search-inner custom-scroll">
             <ul>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-1.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">Jon Wilime</h6>
-                        <p>Many desktop publishing</p>
-                    </div>
-                </li>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-2.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Jon Wileyam</a>
-                        </h6>
-                        <button class="add-frnd">add friend</button>
-                    </div>
-                </li>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-3.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Mili Raoulin</a>
-                        </h6>
-                        <button class="add-frnd">add friend</button>
-                    </div>
-                </li>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-4.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Jon Wilime</a>
-                        </h6>
-                        <button class="add-frnd">10 mutual friends</button>
-                    </div>
-                </li>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-6.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Robart faul</a>
-                        </h6>
-                        <button class="add-frnd">12 mutual friends</button>
-                    </div>
-                </li>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-7.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Mili Raoulin</a>
-                        </h6>
-                        <button class="add-frnd">add friend</button>
-                    </div>
-                </li>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-8.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Jon Wilime</a>
-                        </h6>
-                        <button class="add-frnd">10 mutual friends</button>
-                    </div>
-                </li>
-                <li class="d-flex align-items-center profile-active">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb active">
-                        <a href="#">
-                            <figure class="profile-thumb-small">
-                                <img src="./images/profile/profile-35x35-9.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Robart faul</a>
-                        </h6>
-                        <button class="add-frnd">12 mutual friends</button>
-                    </div>
-                </li>
+              
             </ul>
         </div>
     </div>
@@ -1055,149 +824,7 @@
             </div>
             <!-- profile picture end -->
 
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-2.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-3.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-4.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-5.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-6.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-7.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-8.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-9.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-10.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-11.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-12.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-13.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
+       
         </div>
     </div>
 </div>

@@ -3,11 +3,14 @@ using DAL.DataBaseContext;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using System;
+using Microsoft.AspNetCore.Identity;
 
 namespace PL.Controllers;
 
 public class ProfileController : Controller
 {
+    
     private readonly ForumDbContext _context;
     
     public ProfileController(ForumDbContext context)
@@ -58,10 +61,15 @@ public class ProfileController : Controller
         {
             FriendshipRequest = FindFriendshipRequest()
         };
-        
+
+        var username = HttpContext.Session.GetString("username");
+         
         
         Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
             System.IO.File.ReadAllText(@"C:\Users\mabro\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
+        Console.WriteLine("*************************************************");
+        Console.WriteLine(u);
+        Console.WriteLine("*************************************************");
         ViewBag.user = u;
         ViewBag.userPost = viewModel2;
         ViewBag.ReactionPost = viewModel3;
