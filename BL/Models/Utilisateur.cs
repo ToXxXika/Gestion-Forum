@@ -57,6 +57,5 @@ public class Utilisateur
    
     public virtual Role role  { get; set; }
     public virtual ICollection<Comments> Comments { get; set; }
-    public virtual ICollection<PostComment> PostComments { get; set; }
 
 }

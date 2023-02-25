@@ -28,14 +28,12 @@ public class SignUpController : Controller
         return hash.ToString();
     }
     [HttpPost]
-    public async Task<IActionResult> AddUser([Bind("utilisateur_id,nom,prenom,mail,pwd,adresse,username,phone")] Utilisateur utilisateur)
+    public async Task<IActionResult> AddUser([Bind("nom,prenom,mail,pwd,adresse,username,phone")] Utilisateur utilisateur)
     {
         utilisateur.Country = Request.Form["Country"].ToString();
-        utilisateur.roles = "REF123";
-        Console.WriteLine(utilisateur.Country);
-        utilisateur.pwd = HashPassword(utilisateur.pwd);
+        utilisateur.roles = "R123";
+        utilisateur.about = "DEFINE ME LATER";
         await _context.AddAsync(utilisateur);
-        await _context.SaveChangesAsync();
         Login user = new Login();
         user.mail=utilisateur.mail;
         user.pwd=utilisateur.pwd;

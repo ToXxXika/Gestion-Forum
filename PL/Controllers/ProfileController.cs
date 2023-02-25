@@ -21,6 +21,7 @@ public class ProfileController : Controller
     {
         var userPost = _context.utilisateur_Post
             .Include(x => x.utilisateur).ThenInclude(u => u.role).Include(x => x.post).ToList();
+        Console.WriteLine(userPost.Count);
         return userPost;
     }
     public List<FriendshipRequest> FindFriendshipRequest()
@@ -39,6 +40,25 @@ public class ProfileController : Controller
         var ReactionPost = _context.reaction_Post.Include(x => x.post)
             .Include(x => x.reaction).ToList();
         return ReactionPost;
+    }
+    [HttpDelete]
+    public IActionResult Delete([Bind("post_ref") ] string id)
+    {
+        var userPost = _context.utilisateur_Post.Find(id);
+        var post = _context.post.Find(id);
+        var postcomments=  _context.PostComments.Find(id);
+        var reactionPost = _context.reaction_Post.Find(id);
+        if (post == null || userPost == null   || reactionPost == null)
+        {
+            return NotFound();
+        }
+      
+        _context.utilisateur_Post.Remove(userPost);
+        _context.PostComments.Remove(postcomments);
+        _context.reaction_Post.Remove(reactionPost);
+        _context.post.Remove(post);
+        _context.SaveChanges();
+        return RedirectToAction("Index");
     }
     
     // GET
@@ -67,9 +87,7 @@ public class ProfileController : Controller
         
         Utilisateur u = JsonConvert.DeserializeObject<Utilisateur>(
             System.IO.File.ReadAllText(@"C:\Users\mabro\RiderProjects\Gestion-Forum\PL\JsonDeserializer\user.json"));
-        Console.WriteLine("*************************************************");
-        Console.WriteLine(u);
-        Console.WriteLine("*************************************************");
+  
         ViewBag.user = u;
         ViewBag.userPost = viewModel2;
         ViewBag.ReactionPost = viewModel3;

@@ -197,20 +197,21 @@ namespace DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("commentref")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasColumnName("commentref");
+
                     b.Property<string>("post_ref_fk")
                         .IsRequired()
                         .HasColumnType("nvarchar(255)")
                         .HasColumnName("id_post");
 
-                    b.Property<int>("utilisateur_fk")
-                        .HasColumnType("int")
-                        .HasColumnName("id_utilisateur");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("post_ref_fk");
+                    b.HasIndex("commentref");
 
-                    b.HasIndex("utilisateur_fk");
+                    b.HasIndex("post_ref_fk");
 
                     b.ToTable("post_commments");
                 });
@@ -479,21 +480,21 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("BL.Models.PostComment", b =>
                 {
+                    b.HasOne("BL.Models.Comments", "comments")
+                        .WithMany()
+                        .HasForeignKey("commentref")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("BL.Models.Post", "post")
                         .WithMany("postComments")
                         .HasForeignKey("post_ref_fk")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BL.Models.Utilisateur", "utilisateur")
-                        .WithMany("PostComments")
-                        .HasForeignKey("utilisateur_fk")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("comments");
 
                     b.Navigation("post");
-
-                    b.Navigation("utilisateur");
                 });
 
             modelBuilder.Entity("BL.Models.Reaction_Post", b =>
@@ -577,8 +578,6 @@ namespace DAL.Migrations
             modelBuilder.Entity("BL.Models.Utilisateur", b =>
                 {
                     b.Navigation("Comments");
-
-                    b.Navigation("PostComments");
                 });
 #pragma warning restore 612, 618
         }

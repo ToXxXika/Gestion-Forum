@@ -14,11 +14,11 @@ public class PostComment
     [Required, Column("id_post"), ForeignKey("post")]
     public String post_ref_fk{ get; set; }
 
-    [Required, Column("id_utilisateur"), ForeignKey("utilisateur")]
-    public int utilisateur_fk { get; set; } 
+    [Required, Column("commentref"), ForeignKey("comments")]
+    public string commentref { get; set; } 
     
     public virtual Post post { get; set; }
-    public virtual Utilisateur utilisateur { get; set; }
+    public virtual Comments comments { get; set; }
     
 
 }

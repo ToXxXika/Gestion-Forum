@@ -1,6 +1,10 @@
 @model BL.Models.Post
 @using PL.Controllers
+@using BL.Models
+@{
+    var FriendshipRequest = (ArrayViewModel2)ViewData["FriendshipRequest"];
 
+}
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -291,7 +295,7 @@
                                 <a ><i class="flaticon-settings"></i>Setting</a>
                             </li>
                             <li>
-                                <a asp-controller="Login"><i class="flaticon-unlock"></i>Sing out</a>
+                                <a asp-controller="Login"><i class="flaticon-unlock"></i>Sign Out</a>
                             </li>
                         </ul>
                     </div>
@@ -635,54 +639,6 @@
                     <img class="heart-color" src="./images/icons/heart-color.png" alt="">
                 </button>
             </li>
-            <li class="unorder-list">
-                <!-- profile picture end -->
-                <div class="profile-thumb">
-                    <a href="#">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-15.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-                <!-- profile picture end -->
-
-                <div class="unorder-list-info">
-                    <h3 class="list-title">
-                        <a href="#">Rolin Theitar</a>
-                    </h3>
-                    <p class="list-subtitle">
-                        <a href="#">drama</a>
-                    </p>
-                </div>
-                <button class="like-button">
-                    <img class="heart" src="./images/icons/heart.png" alt="">
-                    <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                </button>
-            </li>
-            <li class="unorder-list">
-                <!-- profile picture end -->
-                <div class="profile-thumb">
-                    <a href="#">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-18.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-                <!-- profile picture end -->
-
-                <div class="unorder-list-info">
-                    <h3 class="list-title">
-                        <a href="#">Active Mind</a>
-                    </h3>
-                    <p class="list-subtitle">
-                        <a href="#">fitness</a>
-                    </p>
-                </div>
-                <button class="like-button">
-                    <img class="heart" src="./images/icons/heart.png" alt="">
-                    <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                </button>
-            </li>
         </ul>
     </div>
 </div>
@@ -699,7 +655,8 @@
     @foreach (var item in ViewBag.userPost.userPost)
     {
         @foreach (var item2 in ViewBag.ReactionPost.ReactionPost)
-            
+        {
+
             @if (item.utilisateur_id_fk.Equals(ViewBag.user.utilisateur_id))
             {
                 <div class="card">
@@ -732,7 +689,10 @@
                                         <button>edit post</button>
                                     </li>
                                     <li>
-                                        <button>delete post </button>
+                                    <a asp-action="Delete">
+                                    <input type="text" value="@item.post.post_ref" hidden="hidden"  asp-for="post_ref"/>
+                                    <button >delete post </button>
+                                     </a>
                                     </li>
                                 </ul>
                             </div>
@@ -782,20 +742,20 @@
                         <div class="post-meta">
                             <button class="post-meta-like">
                                 <i class="bi bi-heart-beat"></i>
-                                <span>You and 207 people like this</span>
+                                <span>@item2.reaction_count people like this</span>
                                 <strong>207</strong>
                             </button>
                             <ul class="comment-share-meta">
                                 <li>
                                     <button class="post-comment">
                                         <i class="bi bi-chat-bubble"></i>
-                                        <span>41</span>
+                                        <span>Comment Count</span>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="post-share">
                                         <i class="bi bi-share"></i>
-                                        <span>07</span>
+                                        <span>Share To Do </span>
                                     </button>
                                 </li>
                             </ul>
@@ -803,6 +763,7 @@
                     </div>
                 </div>
             }
+    }
     }
 
 </div>
@@ -861,102 +822,46 @@
             <h4 class="widget-title">Friends Zone</h4>
             <div class="widget-body">
                 <ul class="like-page-list-wrapper">
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-1.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
+                    @foreach (var x in @ViewBag.FriendshipRequest.FriendshipRequest)
+                    {
+                        @if ((@x.status.Equals("Accepted")) && ((@x.senderId.Equals(@ViewBag.user.utilisateur_id)) || (@x.receiverId.Equals(@ViewBag.user.utilisateur_id))))
+                        {
 
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">arfim bolt</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">10 mutual</a>
-                            </p>
-                        </div>
-                        <button class="like-button">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-2.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
+                            <li class="unorder-list">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-small">
+                                            <img src="./images/profile/profile-35x35-1.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <!-- profile picture end -->
 
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">marry wither</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">02 mutual</a>
-                            </p>
-                        </div>
-                        <button class="like-button active">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-3.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
+                                <div class="unorder-list-info">
+                                    <h3 class="list-title">
+                                        @if (@ViewBag.user.utilisateur_id.Equals(@x.senderId))
+                                        {
+                                            <a href="#">@x.receiver.nom @x.receiver.prenom</a>
+                                        }
+                                        @if (@ViewBag.user.utilisateur_id.Equals(@x.receiverId))
+                                        {
+                                            <a href="#">@x.sender.nom @x.sender.prenom</a>
+                                        }
 
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">Rolin Theitar</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">drama</a>
-                            </p>
-                        </div>
-                        <button class="like-button">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-4.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
 
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">Active Mind</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">fitness</a>
-                            </p>
-                        </div>
-                        <button class="like-button">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
+                                    </h3>
+                                    <p class="list-subtitle">
+                                        <a href="#">Friends</a>
+                                    </p>
+                                </div>
+                                <button class="like-button">
+                                    <img class="heart" src="./images/icons/heart.png" alt="">
+                                    <img class="heart-color" src="./images/icons/heart-color.png" alt="">
+                                </button>
+                            </li>
+                        }
+                    }
                 </ul>
             </div>
         </div>
@@ -1044,148 +949,7 @@
 <div class="card card-small mb-0 active-profile-wrapper">
     <div class="active-profiles-wrapper">
         <div class="active-profile-carousel slick-row-20 slick-arrow-style">
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="#">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-1.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-2.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-3.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-4.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-5.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-6.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-7.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-8.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-9.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-10.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-11.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <!-- profile picture end -->
-
-            <!-- profile picture end -->
-            <div class="single-slide">
-                <div class="profile-thumb active profile-active">
-                    <a href="javascript:void(0)">
-                        <figure class="profile-thumb-small">
-                            <img src="./images/profile/profile-35x35-12.jpg" alt="profile picture">
-                        </figure>
-                    </a>
-                </div>
-            </div>
+  
             <!-- profile picture end -->
 
             <!-- profile picture end -->
@@ -1286,91 +1050,24 @@
                         </div>
                         <div class="card card-small mb-0 active-profile-mob-wrapper">
                             <div class="active-profiles-mob-wrapper slick-row-10">
-                                <div class="active-profile-mobile">
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="#">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-1.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
+                                @foreach (var item in FriendshipRequest.FriendshipRequest)
+                                {
+                                    <div class="active-profile-mobile">
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="./images/profile/profile-small-1.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!-- profile picture end -->
+                                        <!-- profile picture end -->
 
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-8.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
 
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-2.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
                                     </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-3.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-4.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-5.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-9.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-                                </div>
+                                }
                             </div>
                         </div>
                     </div>

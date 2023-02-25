@@ -1,10 +1,13 @@
 ﻿@using PL.Controllers
 @model BL.Models.Post
+
 @{
     ViewData["Title"] = "Home Page";
     var bloglist = (ArrayViewModel)ViewData["BlogList"];
     var postList = (ArrayViewModel)ViewData["PostList"];
     var ReactionList = (ArrayViewModel)ViewData["ReactionPost"];
+    var FriendshipRequest = (ArrayViewModel)ViewData["FriendshipRequest"];
+    var users = (ArrayViewModel)ViewData["Users"];
 
 }
 <!doctype html>
@@ -104,7 +107,7 @@
                     </div>
                 </li>
                 <li class="notification-trigger">
-                    <a class="msg-trigger-btn" href="#b">notification</a>
+                    <a class="msg-trigger-btn" href="#b">Blogs</a>
                     <div class="message-dropdown" id="b">
                         <div class="dropdown-title">
                             <p class="recent-msg">Notification</p>
@@ -143,6 +146,7 @@
                         </div>
                     </div>
                 </li>
+                <li></li>
             </ul>
         </nav>
     </div>
@@ -204,7 +208,7 @@
                                 <a ><i class="flaticon-settings"></i>Setting</a>
                             </li>
                             <li>
-                                <a asp-controller="Login"><i class="flaticon-unlock"></i>Sing out</a>
+                                <a asp-controller="Login"><i class="flaticon-unlock"></i>Sign out</a>
                             </li>
                         </ul>
                     </div>
@@ -228,162 +232,7 @@
         <img src="./images/logo/logo-white.png" alt="logo">
     </a>
 </div>
-<div class="mobile-menu w-100">
-    <ul>
-        <li>
-            <button class="notification request-trigger">
-                <i class="flaticon-users"></i>
-                <span>03</span>
-            </button>
-            <ul class="frnd-request-list">
-                <li>
-                    <div class="frnd-request-member">
-                        <figure class="request-thumb">
-                            <a href="profile.html">
-                                <img src="./images/profile/profile-midle-1.jpg" alt="proflie author">
-                            </a>
-                        </figure>
-                        <div class="frnd-content">
-                            <h6 class="author">
-                                <a href="profile.html">merry watson</a>
-                            </h6>
-                            <p class="author-subtitle">Works at HasTech</p>
-                            <div class="request-btn-inner">
-                                <button class="frnd-btn">confirm</button>
-                                <button class="frnd-btn delete">delete</button>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="frnd-request-member">
-                        <figure class="request-thumb">
-                            <a href="profile.html">
-                                <img src="./images/profile/profile-midle-2.jpg" alt="proflie author">
-                            </a>
-                        </figure>
-                        <div class="frnd-content">
-                            <h6 class="author">
-                                <a href="profile.html">merry watson</a>
-                            </h6>
-                            <p class="author-subtitle">Works at HasTech</p>
-                            <div class="request-btn-inner">
-                                <button class="frnd-btn">confirm</button>
-                                <button class="frnd-btn delete">delete</button>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="frnd-request-member">
-                        <figure class="request-thumb">
-                            <a href="profile.html">
-                                <img src="./images/profile/profile-midle-3.jpg" alt="proflie author">
-                            </a>
-                        </figure>
-                        <div class="frnd-content">
-                            <h6 class="author">
-                                <a href="profile.html">merry watson</a>
-                            </h6>
-                            <p class="author-subtitle">Works at HasTech</p>
-                            <div class="request-btn-inner">
-                                <button class="frnd-btn">confirm</button>
-                                <button class="frnd-btn delete">delete</button>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <button class="notification">
-                <i class="flaticon-notification"></i>
-                <span>03</span>
-            </button>
-        </li>
-        <li>
-            <button class="chat-trigger notification">
-                <i class="flaticon-chats"></i>
-                <span>04</span>
-            </button>
-            <div class="mobile-chat-box">
-                <div class="live-chat-title">
-                    <!-- profile picture end -->
-                    <div class="profile-thumb">
-                        <a href="profile.html">
-                            <figure class="profile-thumb-small profile-active">
-                                <img src="./images/profile/profile-35x35-13.jpg" alt="profile picture">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- profile picture end -->
-                    <div class="posted-author">
-                        <h6 class="author">
-                            <a href="profile.html">Robart Marloyan</a>
-                        </h6>
-                        <span class="active-pro">active now</span>
-                    </div>
-                    <div class="live-chat-settings ml-auto">
-                        <button class="chat-settings">
-                            <img src="./images/icons/settings.png" alt="">
-                        </button>
-                        <button class="close-btn">
-                            <img src="./images/icons/close.png" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="message-list-inner">
-                    <ul class="message-list custom-scroll">
-                        <li class="text-friends">
-                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
-                            <div class="message-time">10 minute ago</div>
-                        </li>
-                        <li class="text-author">
-                            <p>Many desktop publishing packages and web page editors</p>
-                            <div class="message-time">5 minute ago</div>
-                        </li>
-                        <li class="text-friends">
-                            <p>packages and web page editors </p>
-                            <div class="message-time">2 minute ago</div>
-                        </li>
-                        <li class="text-friends">
-                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
-                            <div class="message-time">10 minute ago</div>
-                        </li>
-                        <li class="text-author">
-                            <p>Many desktop publishing packages and web page editors</p>
-                            <div class="message-time">5 minute ago</div>
-                        </li>
-                        <li class="text-friends">
-                            <p>packages and web page editors </p>
-                            <div class="message-time">2 minute ago</div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="chat-text-field mob-text-box">
-                    <textarea class="live-chat-field custom-scroll" placeholder="Text Message"></textarea>
-                    <button class="chat-message-send" type="submit" value="submit">
-                        <img src="./images/icons/plane.png" alt="">
-                    </button>
-                </div>
-            </div>
-        </li>
-        <li>
-            <button class="search-trigger">
-                <i class="search-icon flaticon-search"></i>
-                <i class="close-icon flaticon-cross-out"></i>
-            </button>
-            <div class="mob-search-box">
-                <form class="mob-search-inner">
-                    <input type="text" placeholder="Search Here" class="mob-search-field">
-                    <button class="mob-search-btn">
-                        <i class="flaticon-search"></i>
-                    </button>
-                </form>
-            </div>
-        </li>
-    </ul>
-</div>
+
 <div class="mobile-header-profile">
     <!-- profile picture end -->
     <div class="profile-thumb profile-setting-box">
@@ -481,7 +330,7 @@
 
                             <div class="unorder-list-info">
                                 <h3 class="list-title">
-                                    <a href="#">@item.post.post_title</a>
+                                    <a asp-controller="Post" asp-action="Index">@item.post.post_title</a>
                                 </h3>
                                 <p class="list-subtitle">@item.post.post_subtitle</p>
                             </div>
@@ -531,13 +380,15 @@
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body custom-scroll">
-                                <input type="text" class="form-control form-status border-0 py-1 px-0" asp-for="post_title" placeholder="Post Title"/>
-
-                                <input type="text" class="form-control form-status border-0 py-1 px-0" asp-for="post_subtitle" placeholder="Post Subtitle"/>
-                                <textarea class="form-control form-status border-0 py-1 px-0" asp-for="post_content" placeholder="Post Content"></textarea>
-                                <select asp-for="blog_ref" class="form-control form-status border-0 py-1 px-0" asp-items="ViewBag.blog"></select>
-                            </div>
+                          <div class="modal-body custom-scroll">
+                              <input type="text" class="form-control form-status border-0 py-1 px-0 mb-3" asp-for="post_title" placeholder="Post Title"/>
+                          
+                              <input type="text" class="form-control form-status border-0 py-1 px-0 mb-3" asp-for="post_subtitle" placeholder="Post Subtitle"/>
+                          
+                              <textarea class="form-control form-status border-0 py-1 px-0 mb-3" asp-for="post_content" placeholder="Post Content"></textarea>
+                          
+                              <select asp-for="blog_ref" class="form-control form-status border-0 py-1 px-0 mb-3" asp-items="ViewBag.blog"></select>
+                          </div>
                             <div class="modal-footer">
                                 <button type="button" class="post-share-btn" data-bs-dismiss="modal">cancel</button>
                                 <button type="submit" class="post-share-btn">post</button>
@@ -578,7 +429,7 @@
 
                          <div class="posted-author">
                              <h6 class="author">
-                                 <a href="profile.html">@item2.utilisateur.nom @item2.utilisateur.prenom</a>
+                                 <a asp-controller="Profile" asp-action="Index">@item2.utilisateur.nom @item2.utilisateur.prenom</a>
                              </h6>
                              <span class="post-time">@item2.utilisateur.username</span>
                          </div>
@@ -590,13 +441,18 @@
                              <div class="post-settings arrow-shape">
                                  <ul>
                                      <li>
-                                         <button>copy link to adda</button>
+                                         <form method="post" action="@Url.Action("Index2", "Post" , new {postref=$"{item2.post.post_ref}",uid=$"{ViewBag.user.utilisateur_id}"})">
+                                             
+                                                                    
+                                             <button type="submit">Details</button>
+                                         </form>
+                                         
                                      </li>
                                      <li>
                                          <button>edit post</button>
                                      </li>
                                      <li>
-                                         <button>embed adda</button>
+                                         <button>delete post</button>
                                      </li>
                                  </ul>
                              </div>
@@ -605,10 +461,11 @@
                      </div>
 
                      <!-- post title start -->
-                     <div class="post-content">
+                     <div class="post-content" >
                          <p class="post-desc">
                              @item2.post.post_content
                          </p>
+                        
                          <div class="post-thumb-gallery">
                              <figure class="post-thumb img-popup">
                                  <a href="./images/post/post-1.jpg">
@@ -617,11 +474,26 @@
                              </figure>
                          </div>
                          <div class="post-meta">
-                             <button class="post-meta-like">
-                                 <i class="bi bi-heart-beat"></i>
-                                 <span><p>@Reaction.reaction_count</p> people like this</span>
-                                 <strong>201</strong>
-                             </button>
+                             
+                             <script>
+                                var btn = document.getElementById("btn");
+                                btn.addEventListener("click", function () {
+                                    btn.classList.toggle("active");
+                                    btn.style.color = "green";
+                                });
+                             </script>
+                             
+                             <form method="post" action="@Url.Action("UpdateReaction","Home")">
+                                 <input hidden="hidden" name="reactionref" value="@Reaction.reaction_ref_pk"/>
+                                    <input hidden="hidden" name="postref" value="@Reaction.post_ref_pk"/>
+                                  <button   class="post-meta-like" type="submit" id="btn">
+                                                                      
+                                                                      <i class="bi bi-heart-beat"></i>
+                                                                      <span>@Reaction.reaction_count people like this</span>
+                                 
+                                                                  </button> 
+                             </form>
+                
                              <ul class="comment-share-meta">
                                  <li>
                                      <button class="post-comment">
@@ -659,105 +531,47 @@
 
         <!-- widget single item start -->
         <div class="card widget-item">
-            <h4 class="widget-title">Friends Zone</h4>
+            <h4 class="widget-title">Suggestions </h4>
             <div class="widget-body">
                 <ul class="like-page-list-wrapper">
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-15.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
+                    @foreach (var u in users.Users)
+                    {
+                        @if(!(u.utilisateur_id.Equals(@ViewBag.user.utilisateur_id)))
+                        {
+                            <form method="post" action="@Url.Action("AddFriend", "Home")">
+                                
+                             <input name="sender" hidden="hidden" value="@ViewBag.user.utilisateur_id"/>
+                             <input name="receiver" hidden="hidden" value="@u.utilisateur_id"/>
+                            <li class="unorder-list">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-small">
+                                            <img src="./images/profile/profile-35x35-15.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <!-- profile picture end -->
 
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">Ammeya Jakson</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">10 mutual</a>
-                            </p>
-                        </div>
-                        <button class="like-button">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-18.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
-
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">Jashon Muri</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">2 mutual</a>
-                            </p>
-                        </div>
-                        <button class="like-button active">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-14.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
-
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">Rolin Theitar</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">drama</a>
-                            </p>
-                        </div>
-                        <button class="like-button">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
-                    <li class="unorder-list">
-                        <!-- profile picture end -->
-                        <div class="profile-thumb">
-                            <a href="#">
-                                <figure class="profile-thumb-small">
-                                    <img src="./images/profile/profile-35x35-20.jpg" alt="profile picture">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- profile picture end -->
-
-                        <div class="unorder-list-info">
-                            <h3 class="list-title">
-                                <a href="#">Active Mind</a>
-                            </h3>
-                            <p class="list-subtitle">
-                                <a href="#">fitness</a>
-                            </p>
-                        </div>
-                        <button class="like-button">
-                            <img class="heart" src="./images/icons/heart.png" alt="">
-                            <img class="heart-color" src="./images/icons/heart-color.png" alt="">
-                        </button>
-                    </li>
+                                
+                                <div class="unorder-list-info">
+                                    <h3 class="list-title">
+                                        <a href="#" >@u.nom @u.prenom</a>
+                                    </h3>
+                                    <p class="list-subtitle">
+                                        <a href="#">10 mutual</a>
+                                    </p>
+                                </div>
+                                <button class="like-button" type="submit">
+                                    <img class="heart" src="./images/icons/heart.png" alt="">
+                                    <img class="heart-color" src="./images/icons/heart-color.png" alt="">
+                                </button>
+                            </li>
+                         </form>
+                            
+                        }
+                    }
+                  
                 </ul>
             </div>
         </div>
@@ -804,7 +618,38 @@
         </div>
         <div class="frnd-search-inner custom-scroll">
             <ul>
+               @foreach (var item in FriendshipRequest.FriendshipRequests)
+                              {
+                                  @if ((@item.status.Equals("Accepted") )&& ((@item.senderId.Equals(@ViewBag.user.utilisateur_id)) || (@item.receiverId.Equals(@ViewBag.user.utilisateur_id))))
+                                  {
+                                  
+                                  <li class="d-flex align-items-center profile-active">
+                                      <!-- profile picture end -->
+                                      <div class="profile-thumb active">
+                                          <a href="#">
+                                              <figure class="profile-thumb-small">
+                                                  <img src="./images/profile/profile-35x35-1.jpg" alt="profile picture">
+                                              </figure>
+                                          </a>
+                                      </div>
+                                      <!-- profile picture end -->
               
+                                      <div class="posted-author">
+                                             @if (@ViewBag.user.utilisateur_id.Equals(item.senderId))
+                                             {
+                                                 <h6 class="author" id="X">@item.receiver.nom @item.receiver.prenom</h6>       
+                                             }
+                                              @if (@ViewBag.user.utilisateur_id.Equals(item.receiverId))
+                                                                            {
+                                                                                <h6 class="author" id="X">@item.sender.nom @item.sender.prenom</h6>       
+                                                                            }
+                                             
+                                         
+                                          <p>Online</p>
+                                      </div>
+                                  </li>
+                              }
+                              }
             </ul>
         </div>
     </div>
@@ -864,26 +709,7 @@
             </div>
             <div class="message-list-inner">
                 <ul class="message-list custom-scroll">
-                    <li class="text-friends">
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
-                        <div class="message-time">10 minute ago</div>
-                    </li>
-                    <li class="text-author">
-                        <p>Many desktop publishing packages and web page editors</p>
-                        <div class="message-time">5 minute ago</div>
-                    </li>
-                    <li class="text-friends">
-                        <p>packages and web page editors </p>
-                        <div class="message-time">2 minute ago</div>
-                    </li>
-                    <li class="text-friends">
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
-                        <div class="message-time">10 minute ago</div>
-                    </li>
-                    <li class="text-author">
-                        <p>Many desktop publishing packages and web page editors</p>
-                        <div class="message-time">5 minute ago</div>
-                    </li>
+                   
                     <li class="text-friends">
                         <p>packages and web page editors </p>
                         <div class="message-time">2 minute ago</div>
@@ -919,91 +745,26 @@
                         </div>
                         <div class="card card-small mb-0 active-profile-mob-wrapper">
                             <div class="active-profiles-mob-wrapper slick-row-10">
-                                <div class="active-profile-mobile">
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="#">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-1.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
+                                @foreach (var F in FriendshipRequest.FriendshipRequests)
+                                {
+                                    @if ((@F.status.Equals("Accepted")) && ((@F.senderId.Equals(@ViewBag.user.utilisateur_id)) || (@F.receiverId.Equals(@ViewBag.user.utilisateur_id))))
+                                    {
+                                        <div class="active-profile-mobile">
+                                            <!-- profile picture end -->
+                                            <div class="single-slide">
+                                                <div class="profile-thumb active profile-active">
+                                                    <a href="#">
+                                                        <figure class="profile-thumb-small profile-active">
+                                                            <img src="./images/profile/profile-small-1.jpg" alt="profile picture">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                            </div>
 
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-8.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
                                         </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-2.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-3.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-4.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-5.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-
-                                    <!-- profile picture end -->
-                                    <div class="single-slide">
-                                        <div class="profile-thumb active profile-active">
-                                            <a href="javascript:void(0)">
-                                                <figure class="profile-thumb-small profile-active">
-                                                    <img src="./images/profile/profile-small-9.jpg" alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- profile picture end -->
-                                </div>
+                                    }
+                                }
+                           
                             </div>
                         </div>
                     </div>

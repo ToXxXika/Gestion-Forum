@@ -11158,6 +11158,7 @@
       "Blazored.LocalStorage >= 4.3.0",
       "DAL >= 1.0.0",
       "LocalStorage >= 2.1.0",
+      "Microsoft.AspNetCore.Authorization >= 6.0.0",
       "Microsoft.AspNetCore.Http.Extensions >= 2.2.0",
       "Microsoft.AspNetCore.Session >= 2.2.0",
       "Microsoft.AspNetCore.SignalR >= 1.1.0",
@@ -11226,6 +11227,10 @@
           "LocalStorage": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "Microsoft.AspNetCore.Authorization": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           },
           "Microsoft.AspNetCore.Http.Extensions": {
             "target": "Package",

@@ -6,10 +6,12 @@ using DAL.DataBaseContext;
 using Hanssens.Net;
 using Newtonsoft.Json;
 using Blazored.LocalStorage;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace PL.Controllers
 {
+    
     public class LoginController : Controller
     {
         public readonly ForumDbContext _context;
@@ -23,6 +25,7 @@ namespace PL.Controllers
         // GET: Login
         public async Task<IActionResult> Index()
         {
+            
             return _context.login != null ? View() : Problem("Entity set 'ForumDbContext.login'  is null.");
         }
 
